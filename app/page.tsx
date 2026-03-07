@@ -1,6 +1,19 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import { cn } from "@/lib/utils";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Progress } from "@/components/ui/progress";
+import { Separator } from "@/components/ui/separator";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 type Question = {
   id: number;
@@ -327,55 +340,56 @@ function formatTime(s: number): string {
 // ─── START ───────────────────────────────────────────────────────────────────
 function StartScreen({ onStart }: StartScreenProps) {
   return (
-    <div className="min-h-screen bg-[#0c0c0c] flex items-center justify-center p-4">
-      <div className="w-full max-w-sm">
-        <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-white/5 border border-white/10 mb-5 text-xl">
-            🛡️
-          </div>
-          <h1 className="text-2xl font-semibold text-white tracking-tight mb-1">ITS Reviewer</h1>
-          <p className="text-xs text-zinc-600 tracking-widest uppercase">IT23 · Cybersecurity &amp; Networking</p>
-        </div>
+    <div className="min-h-screen bg-background px-4 py-6 md:py-10">
+      <div className="mx-auto w-full max-w-xl">
+        <Card className="border-border/70 bg-card/80 shadow-sm backdrop-blur">
+          <CardHeader className="items-center text-center">
+            <div className="mb-2 inline-flex size-12 items-center justify-center rounded-2xl border bg-muted text-xl">
+              🛡️
+            </div>
+            <CardTitle className="text-2xl tracking-tight">ITS Reviewer</CardTitle>
+            <CardDescription className="text-xs uppercase tracking-[0.2em]">IT23 · Cybersecurity &amp; Networking</CardDescription>
+          </CardHeader>
 
-        <div className="grid grid-cols-3 gap-2 mb-5">
+          <CardContent className="space-y-4">
+            <div className="grid grid-cols-3 gap-2">
           {[
             { icon: "📋", val: "100", sub: "Questions" },
             { icon: "🔀", val: "Random", sub: "Every run" },
             { icon: "⏱", val: "Timed", sub: "Live clock" },
           ].map((s) => (
-            <div key={s.sub} className="bg-white/[0.03] border border-white/[0.07] rounded-xl p-3 text-center">
-              <div className="text-base mb-1">{s.icon}</div>
-              <div className="text-white text-xs font-medium">{s.val}</div>
-              <div className="text-zinc-700 text-[10px] mt-0.5">{s.sub}</div>
-            </div>
+              <Card key={s.sub} size="sm" className="items-center border-border/60 bg-muted/30 py-2 text-center">
+                <CardContent className="space-y-1 px-2">
+                  <div className="text-base">{s.icon}</div>
+                  <p className="text-xs font-semibold text-foreground">{s.val}</p>
+                  <p className="text-[10px] text-muted-foreground">{s.sub}</p>
+                </CardContent>
+              </Card>
           ))}
-        </div>
+            </div>
 
-        <div className="bg-white/[0.02] border border-white/[0.07] rounded-xl p-4 mb-5">
-          <p className="text-zinc-700 text-[10px] uppercase tracking-widest mb-3">Topics</p>
-          <div className="flex flex-wrap gap-1.5">
-            {Object.entries(CATEGORY_COLORS).map(([cat, color]) => (
-              <span
-                key={cat}
-                className="text-[10px] font-medium px-2 py-0.5 rounded-full"
-                style={{ background: color + "15", color, border: `1px solid ${color}25` }}
-              >
-                {cat}
-              </span>
-            ))}
-          </div>
-        </div>
+            <Card size="sm" className="border-border/60 bg-muted/20">
+              <CardContent className="space-y-3">
+                <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">Topics</p>
+                <div className="flex flex-wrap gap-1.5">
+                  {Object.entries(CATEGORY_COLORS).map(([cat]) => (
+                    <Badge key={cat} variant="outline" className="text-[10px] font-medium">
+                      {cat}
+                    </Badge>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
 
-        <button
-          onClick={onStart}
-          className="w-full py-3 rounded-xl text-sm font-medium text-white tracking-wide transition-opacity duration-150 hover:opacity-85 active:scale-[0.98]"
-          style={{ background: "linear-gradient(135deg,#3b82f6,#6366f1)" }}
-        >
-          Begin Quiz
-        </button>
-        <p className="text-center text-zinc-800 text-[11px] mt-3">
-          {TOTAL} questions drawn from {QUESTIONS.length} items
-        </p>
+            <Button onClick={onStart} size="lg" className="w-full text-sm tracking-wide">
+              Begin Quiz
+            </Button>
+
+            <p className="text-center text-xs text-muted-foreground">
+              {TOTAL} questions drawn from {QUESTIONS.length} items
+            </p>
+          </CardContent>
+        </Card>
       </div>
     </div>
   );
@@ -408,127 +422,115 @@ function QuizScreen({ questions, onFinish }: QuizScreenProps) {
   };
 
   const next = () => {
-    if (current + 1 >= TOTAL) { onFinish(answers, elapsed); return; }
+    if (current + 1 >= TOTAL) {
+      onFinish(answers, elapsed);
+      return;
+    }
     setCurrent((c) => c + 1);
     setSelected(null);
     setConfirmed(false);
   };
 
-  const optStyle = (i: number) => {
+  const optionClass = (i: number) => {
     if (!confirmed) {
       return selected === i
-        ? { background: accent + "18", border: `1px solid ${accent}70`, color: accent }
-        : { background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.07)", color: "#a1a1aa" };
+        ? "border-primary bg-primary/20 text-primary ring-2 ring-primary/40"
+        : "border-border bg-card text-foreground hover:bg-muted";
     }
-    if (i === q.answer)
-      return { background: "rgba(74,222,128,0.08)", border: "1px solid rgba(74,222,128,0.35)", color: "#4ade80" };
-    if (i === selected)
-      return { background: "rgba(248,113,113,0.08)", border: "1px solid rgba(248,113,113,0.35)", color: "#f87171" };
-    return { background: "rgba(255,255,255,0.01)", border: "1px solid rgba(255,255,255,0.05)", color: "#3f3f46" };
+    if (i === q.answer) return "border-emerald-500/50 bg-emerald-500/10 text-emerald-700 dark:text-emerald-300";
+    if (i === selected) return "border-destructive/50 bg-destructive/10 text-destructive";
+    return "border-border/70 bg-card/40 text-muted-foreground";
   };
 
   return (
-    <div className="min-h-screen bg-[#0c0c0c] flex flex-col">
-      {/* Navbar */}
-      <header className="fixed inset-x-0 top-0 z-50 border-b border-white/[0.06] bg-[#0c0c0c]/95 backdrop-blur-sm">
-        <div className="flex items-center justify-between h-11 px-4 max-w-xl mx-auto">
-          <span className="font-mono text-[11px] text-zinc-600">{formatTime(elapsed)}</span>
-          {/* progress bar */}
-          <div className="flex items-center gap-2 flex-1 mx-4">
-            <span className="font-mono text-[10px] text-zinc-700">{current + 1}</span>
-            <div className="flex-1 h-[3px] bg-white/[0.06] rounded-full overflow-hidden">
-              <div
-                className="h-full rounded-full transition-all duration-500 ease-out"
-                style={{ width: `${progress}%`, background: accent }}
-              />
-            </div>
-            <span className="font-mono text-[10px] text-zinc-700">{TOTAL}</span>
+    <div className="min-h-screen bg-background">
+      <header className="sticky top-0 z-50 border-b bg-background/90 backdrop-blur">
+        <div className="mx-auto flex h-14 w-full max-w-3xl items-center gap-3 px-4">
+          <span className="font-mono text-xs text-muted-foreground">{formatTime(elapsed)}</span>
+          <div className="flex flex-1 items-center gap-2">
+            <span className="font-mono text-xs text-muted-foreground">{current + 1}</span>
+            <Progress value={progress} className="h-1.5" />
+            <span className="font-mono text-xs text-muted-foreground">{TOTAL}</span>
           </div>
-          <span className="font-mono text-[11px] text-emerald-600">{score}/{current}</span>
+          <Badge variant="secondary" className="font-mono text-xs">
+            {score}/{current}
+          </Badge>
         </div>
       </header>
 
-      {/* Body */}
-      <main className="flex-1 flex justify-center pt-16 pb-10 px-4">
-        <div className="w-full max-w-xl pt-6">
+      <main className="mx-auto flex w-full max-w-3xl justify-center px-4 py-6 md:py-8">
+        <Card className="w-full border-border/70 bg-card/90">
+          <CardHeader className="space-y-3">
+            <div className="flex flex-wrap items-center gap-2">
+              <Badge variant="outline" style={{ borderColor: accent, color: accent }}>
+                {q.category}
+              </Badge>
+              {isMatch && <Badge variant="secondary">Match</Badge>}
+            </div>
+            <CardTitle className="text-base leading-relaxed md:text-lg">{displayQ}</CardTitle>
+          </CardHeader>
 
-          {/* Badges */}
-          <div className="flex items-center gap-2 mb-4">
-            <span
-              className="text-[10px] font-semibold px-2.5 py-0.5 rounded-full"
-              style={{ background: accent + "15", color: accent, border: `1px solid ${accent}25` }}
-            >
-              {q.category}
-            </span>
-            {isMatch && (
-              <span className="text-[10px] font-semibold px-2.5 py-0.5 rounded-full bg-amber-500/10 text-amber-500/80 border border-amber-500/20">
-                Match
-              </span>
-            )}
-          </div>
-
-          {/* Question text */}
-          <h2 className="text-white/90 text-[15px] font-normal leading-relaxed mb-5">{displayQ}</h2>
-
-          {/* Options */}
-          <div className="flex flex-col gap-2 mb-5">
+          <CardContent className="space-y-3">
             {q.options.map((opt, i) => (
-              <button
+              <Button
                 key={i}
-                onClick={() => { if (!confirmed) setSelected(i); }}
-                className="flex items-start gap-3 w-full text-left px-4 py-3 rounded-xl transition-all duration-150 cursor-pointer"
-                style={optStyle(i)}
+                variant="outline"
+                className={cn("h-auto w-full justify-start gap-3 px-4 py-3 text-left whitespace-normal", optionClass(i))}
+                aria-pressed={selected === i}
+                onClick={() => {
+                  if (!confirmed) setSelected(i);
+                }}
               >
-                <span className="shrink-0 w-5 h-5 rounded-md bg-white/[0.06] text-zinc-600 flex items-center justify-center text-[10px] font-semibold mt-0.5">
+                <span
+                  className={cn(
+                    "flex size-5 shrink-0 items-center justify-center rounded-md border text-[10px] font-semibold",
+                    selected === i && !confirmed
+                      ? "border-primary/70 bg-primary/25 text-primary-foreground"
+                      : "bg-muted text-muted-foreground"
+                  )}
+                >
                   {LABELS[i]}
                 </span>
-                <span className="flex-1 text-[13px] leading-relaxed">{opt}</span>
-                {confirmed && i === q.answer && (
-                  <span className="ml-auto shrink-0 text-emerald-400 text-sm font-semibold">✓</span>
+                <span className="flex-1 text-sm leading-relaxed">{opt}</span>
+                {!confirmed && selected === i && (
+                  <span className="rounded-md border border-primary/40 bg-primary/20 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-primary">
+                    Selected
+                  </span>
                 )}
-                {confirmed && i === selected && selected !== q.answer && (
-                  <span className="ml-auto shrink-0 text-red-400 text-sm font-semibold">✗</span>
-                )}
-              </button>
+                {confirmed && i === q.answer && <span className="text-sm font-semibold">OK</span>}
+                {confirmed && i === selected && selected !== q.answer && <span className="text-sm font-semibold">X</span>}
+              </Button>
             ))}
-          </div>
 
-          {/* Feedback */}
-          {confirmed && (
-            <div
-              className="rounded-xl px-4 py-3 text-[13px] mb-5 leading-relaxed"
-              style={
-                selected === q.answer
-                  ? { background: "rgba(74,222,128,0.06)", border: "1px solid rgba(74,222,128,0.2)", color: "#86efac" }
-                  : { background: "rgba(248,113,113,0.06)", border: "1px solid rgba(248,113,113,0.2)", color: "#fca5a5" }
-              }
-            >
-              {selected === q.answer
-                ? "Correct."
-                : `Correct answer: ${q.options[q.answer]}`}
-            </div>
-          )}
+            {confirmed && (
+              <Card
+                size="sm"
+                className={cn(
+                  "border px-1",
+                  selected === q.answer
+                    ? "border-emerald-500/40 bg-emerald-500/10"
+                    : "border-destructive/40 bg-destructive/10"
+                )}
+              >
+                <CardContent className="text-sm">
+                  {selected === q.answer ? "Correct." : `Correct answer: ${q.options[q.answer]}`}
+                </CardContent>
+              </Card>
+            )}
 
-          {/* Action */}
-          {!confirmed ? (
-            <button
-              onClick={confirm}
-              disabled={selected === null}
-              className="w-full py-3 rounded-xl text-sm font-medium text-white transition-all duration-150 disabled:opacity-25 disabled:cursor-not-allowed hover:opacity-85 active:scale-[0.98]"
-              style={{ background: "linear-gradient(135deg,#3b82f6,#6366f1)" }}
-            >
-              Confirm
-            </button>
-          ) : (
-            <button
-              onClick={next}
-              className="w-full py-3 rounded-xl text-sm font-medium text-white transition-all duration-150 hover:opacity-85 active:scale-[0.98]"
-              style={{ background: "linear-gradient(135deg,#3b82f6,#6366f1)" }}
-            >
-              {current + 1 >= TOTAL ? "See Results" : "Next →"}
-            </button>
-          )}
-        </div>
+            <Separator />
+
+            {!confirmed ? (
+              <Button onClick={confirm} disabled={selected === null} size="lg" className="w-full">
+                Confirm
+              </Button>
+            ) : (
+              <Button onClick={next} size="lg" className="w-full">
+                {current + 1 >= TOTAL ? "See Results" : "Next"}
+              </Button>
+            )}
+          </CardContent>
+        </Card>
       </main>
     </div>
   );
@@ -542,11 +544,11 @@ function ResultScreen({ questions, answers, elapsed, onRestart }: ResultScreenPr
   const pct = Math.round((score / TOTAL) * 100);
 
   const grade =
-    pct >= 90 ? { label: "Excellent", color: "#60a5fa" }
-    : pct >= 80 ? { label: "Great",    color: "#4ade80" }
-    : pct >= 70 ? { label: "Good",     color: "#facc15" }
-    : pct >= 60 ? { label: "Passing",  color: "#fb923c" }
-    :             { label: "Needs Work", color: "#f87171" };
+    pct >= 90 ? { label: "Excellent", tone: "text-emerald-600 dark:text-emerald-400" }
+    : pct >= 80 ? { label: "Great", tone: "text-primary" }
+    : pct >= 70 ? { label: "Good", tone: "text-amber-600 dark:text-amber-400" }
+    : pct >= 60 ? { label: "Passing", tone: "text-orange-600 dark:text-orange-400" }
+    : { label: "Needs Work", tone: "text-destructive" };
 
   const catStats: Record<string, { total: number; correct: number }> = {};
   answers.forEach((a) => {
@@ -559,99 +561,71 @@ function ResultScreen({ questions, answers, elapsed, onRestart }: ResultScreenPr
   const wrongAnswers = answers.filter((a) => a.selected !== a.correct);
 
   return (
-    <div className="min-h-screen bg-[#0c0c0c] flex justify-center p-4 pt-8">
-      <div className="w-full max-w-xl">
+    <div className="min-h-screen bg-background px-4 py-6 md:py-10">
+      <div className="mx-auto w-full max-w-3xl space-y-4">
+        <Card className="border-border/70 bg-card/90 text-center">
+          <CardHeader className="space-y-2">
+            <CardDescription className="text-[10px] uppercase tracking-[0.2em]">Results</CardDescription>
+            <CardTitle className={cn("text-5xl tracking-tighter", grade.tone)}>{pct}%</CardTitle>
+            <p className={cn("text-sm font-medium", grade.tone)}>{grade.label}</p>
+            <p className="text-xs text-muted-foreground">
+              {score} of {TOTAL} correct · {formatTime(elapsed)}
+            </p>
+          </CardHeader>
+        </Card>
 
-        {/* Score */}
-        <div className="bg-white/[0.03] border border-white/[0.07] rounded-2xl p-6 mb-4 text-center">
-          <p className="text-zinc-700 text-[10px] uppercase tracking-widest mb-4">Results</p>
-          <div
-            className="text-5xl font-bold tracking-tighter mb-1"
-            style={{ color: grade.color }}
-          >
-            {pct}%
-          </div>
-          <p className="text-sm font-medium mb-1" style={{ color: grade.color }}>{grade.label}</p>
-          <p className="text-zinc-700 text-xs">{score} of {TOTAL} correct · {formatTime(elapsed)}</p>
-        </div>
+        <Tabs value={tab} onValueChange={(value) => setTab(value as "overview" | "review")} className="w-full">
+          <TabsList className="grid h-9 w-full grid-cols-2">
+            <TabsTrigger value="overview">By Category</TabsTrigger>
+            <TabsTrigger value="review">Wrong Answers</TabsTrigger>
+          </TabsList>
 
-        {/* Tabs */}
-        <div className="flex gap-2 mb-4">
-          {[["overview", "By Category"], ["review", "Wrong Answers"]].map(([t, label]) => (
-            <button
-              key={t}
-              onClick={() => setTab(t)}
-              className={`flex-1 py-2 rounded-xl text-xs font-medium transition-all duration-150 border ${
-                tab === t
-                  ? "text-white bg-white/[0.07] border-white/15"
-                  : "text-zinc-600 bg-transparent border-white/[0.06] hover:text-zinc-400"
-              }`}
-            >
-              {label}
-            </button>
-          ))}
-        </div>
-
-        {/* Category overview */}
-        {tab === "overview" && (
-          <div className="flex flex-col gap-2">
+          <TabsContent value="overview" className="mt-3 space-y-2">
             {Object.entries(catStats).map(([cat, s]) => {
-              const c = CATEGORY_COLORS[cat] || "#60a5fa";
               const p = Math.round((s.correct / s.total) * 100);
               return (
-                <div key={cat} className="bg-white/[0.02] border border-white/[0.06] rounded-xl px-4 py-3">
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="text-xs" style={{ color: c }}>{cat}</span>
-                    <span className="text-[11px] text-zinc-700 font-mono">{s.correct}/{s.total}</span>
-                  </div>
-                  <div className="h-[3px] bg-white/[0.05] rounded-full overflow-hidden">
-                    <div
-                      className="h-full rounded-full transition-all duration-700"
-                      style={{ width: `${p}%`, background: c }}
-                    />
-                  </div>
-                </div>
+                <Card key={cat} size="sm" className="border-border/70 bg-card/70">
+                  <CardContent className="space-y-2">
+                    <div className="flex items-center justify-between">
+                      <Badge variant="outline" className="text-xs">
+                        {cat}
+                      </Badge>
+                      <span className="font-mono text-xs text-muted-foreground">
+                        {s.correct}/{s.total}
+                      </span>
+                    </div>
+                    <Progress value={p} className="h-1.5" />
+                  </CardContent>
+                </Card>
               );
             })}
-          </div>
-        )}
+          </TabsContent>
 
-        {/* Wrong answers review */}
-        {tab === "review" && (
-          <div className="flex flex-col gap-2">
+          <TabsContent value="review" className="mt-3 space-y-2">
             {wrongAnswers.length === 0 ? (
-              <div className="bg-white/[0.02] border border-white/[0.06] rounded-xl px-4 py-8 text-center text-zinc-600 text-sm">
-                Perfect score — no wrong answers! 🎉
-              </div>
+              <Card className="border-border/70 bg-card/70 py-6 text-center">
+                <CardContent className="text-sm text-muted-foreground">Perfect score. No wrong answers.</CardContent>
+              </Card>
             ) : (
               wrongAnswers.map((a, idx) => {
                 const q = questions[a.questionIndex];
                 return (
-                  <div
-                    key={idx}
-                    className="bg-white/[0.02] border border-white/[0.06] rounded-xl px-4 py-3"
-                    style={{ borderLeft: "2px solid rgba(248,113,113,0.4)" }}
-                  >
-                    <p className="text-zinc-400 text-[13px] leading-relaxed mb-2">
-                      {q.question.replace("[MATCH] ", "")}
-                    </p>
-                    <div className="flex flex-col gap-1 pl-1">
-                      <span className="text-[11px] text-red-400/70">Your answer: {q.options[a.selected]}</span>
-                      <span className="text-[11px] text-emerald-500/70">Correct: {q.options[a.correct]}</span>
-                    </div>
-                  </div>
+                  <Card key={idx} size="sm" className="border-border/70 bg-card/70">
+                    <CardContent className="space-y-2">
+                      <p className="text-sm leading-relaxed text-foreground/90">{q.question.replace("[MATCH] ", "")}</p>
+                      <p className="text-xs text-destructive">Your answer: {q.options[a.selected]}</p>
+                      <p className="text-xs text-emerald-600 dark:text-emerald-400">Correct: {q.options[a.correct]}</p>
+                    </CardContent>
+                  </Card>
                 );
               })
             )}
-          </div>
-        )}
+          </TabsContent>
+        </Tabs>
 
-        <button
-          onClick={onRestart}
-          className="w-full mt-4 py-3 rounded-xl text-sm font-medium text-zinc-400 border border-white/[0.07] bg-white/[0.02] hover:text-white hover:bg-white/[0.05] transition-all duration-150 active:scale-[0.98]"
-        >
+        <Button onClick={onRestart} variant="outline" size="lg" className="w-full">
           Retake Quiz
-        </button>
+        </Button>
       </div>
     </div>
   );
