@@ -226,7 +226,7 @@ function QuizScreen({ questions, onFinish }: QuizScreenProps) {
             </div>
 
             <div
-              className="text-base leading-relaxed md:text-lg prose prose-invert max-w-none [&>p]:m-0"
+              className="text-base leading-relaxed md:text-lg prose dark:prose-invert max-w-none [&>p]:m-0"
               dangerouslySetInnerHTML={{ __html: q.questionText }}
             />
 
@@ -333,7 +333,7 @@ function QuizScreen({ questions, onFinish }: QuizScreenProps) {
                   </span>
 
                   <div
-                    className="flex-1 text-sm leading-relaxed prose prose-sm prose-invert max-w-none [&>p]:m-0"
+                    className="flex-1 text-sm leading-relaxed prose prose-sm dark:prose-invert max-w-none [&>p]:m-0"
                     dangerouslySetInnerHTML={{ __html: ans.rawText }}
                   />
 
@@ -477,7 +477,7 @@ function ResultScreen({
                   >
                     <CardContent className="space-y-3 py-4">
                       <div
-                        className="text-sm leading-relaxed text-foreground/90 prose prose-sm prose-invert max-w-none [&>p]:m-0"
+                        className="text-sm leading-relaxed text-foreground/90 prose prose-sm dark:prose-invert max-w-none [&>p]:m-0"
                         dangerouslySetInnerHTML={{ __html: q.questionText }}
                       />
 
@@ -506,7 +506,7 @@ function ResultScreen({
                             >
                               <CheckSquare className="w-4 h-4 shrink-0 mt-0.5" />
                               <div
-                                className="prose prose-sm prose-invert max-w-none [&>p]:m-0 inline"
+                                className="prose prose-sm dark:prose-invert max-w-none [&>p]:m-0 inline"
                                 dangerouslySetInnerHTML={{
                                   __html: q.answers[ci].rawText,
                                 }}
@@ -534,7 +534,7 @@ function ResultScreen({
                               >
                                 <Square className="w-4 h-4 shrink-0 mt-0.5" />
                                 <div
-                                  className="prose prose-sm prose-invert max-w-none [&>p]:m-0 inline"
+                                  className="prose prose-sm dark:prose-invert max-w-none [&>p]:m-0 inline"
                                   dangerouslySetInnerHTML={{
                                     __html: q.answers[si].rawText,
                                   }}

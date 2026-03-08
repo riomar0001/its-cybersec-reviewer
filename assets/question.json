@@ -4259,7 +4259,16 @@
   {
     "questionText": "<p>To protect users from malicious browser pop-ups, you should set a default browser configuration that blocks untrusted pop-ups.</p>",
     "image_file_name": null,
-    "answers": []
+    "answers": [
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      }
+    ]
   },
   {
     "questionText": "<div>\n You have an application that uses IPsec to secure communications between an internet client and a server on the internal network. To which network security service must the IPsec client connect?\n</div>",
@@ -4444,7 +4453,16 @@
   {
     "questionText": "<p>You can view audit logs in the Event Viewer.</p><br>",
     "image_file_name": null,
-    "answers": []
+    "answers": [
+      {
+        "rawText": "<p>True</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>False</p>",
+        "correctAnswer": false
+      }
+    ]
   },
   {
     "questionText": "<div>\n Which two vulnerabilities is a wireless network client exposed to? (Choose 2)\n</div>",
@@ -4581,12 +4599,30 @@
   {
     "questionText": "<p>Protecting users from untrusted pop-up applications is mostly a function of awareness.</p>",
     "image_file_name": null,
-    "answers": []
+    "answers": [
+      {
+        "rawText": "<p>True</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>False</p>",
+        "correctAnswer": false
+      }
+    ]
   },
   {
     "questionText": "<p>System administrators should use a standard user account when performing routine functions like reading emails and browsing the internet.</p><br><br>",
     "image_file_name": null,
-    "answers": []
+    "answers": [
+      {
+        "rawText": "<p>True</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>False</p>",
+        "correctAnswer": false
+      }
+    ]
   },
   {
     "questionText": "<div>\n What are three examples of two-factor authentication? (Choose 3)\n</div>",
@@ -4661,7 +4697,16 @@
   {
     "questionText": "<p>Audit logs have a set size limit and cannot be adjusted.</p>",
     "image_file_name": null,
-    "answers": []
+    "answers": [
+      {
+        "rawText": "<p>True</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>False</p>",
+        "correctAnswer": true
+      }
+    ]
   },
   {
     "questionText": "<div>\n What should you use to protect systems from buffer overflow errors?\n</div>",
@@ -4754,7 +4799,16 @@
   {
     "questionText": "<p>You can configure an event notification for an audited activity.</p>",
     "image_file_name": null,
-    "answers": []
+    "answers": [
+      {
+        "rawText": "<p>True</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>False</p>",
+        "correctAnswer": false
+      }
+    ]
   },
   {
     "questionText": "<div>\n Which technology examines packet header information to determine whether network traffic is allowed to enter the internal network?\n</div>",
@@ -4803,7 +4857,16 @@
   {
     "questionText": "<p>For each statement, select True or False.</p><ol><li>One purpose of User Account Control (UAC) is to grant users the lowest level permissions required to complete their tasks.</li></ol><br>",
     "image_file_name": null,
-    "answers": []
+    "answers": [
+      {
+        "rawText": "<p>True</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>False</p>",
+        "correctAnswer": false
+      }
+    ]
   },
   {
     "questionText": "<div>\n You are an intern for a company. Your manager wants to be sure that you understand the types of social engineering threats that might occur. Which type of threat mitigation educates the staff within an organization, explaining what to do, when, why, and by whom?\n</div>",
@@ -4940,7 +5003,16 @@
   {
     "questionText": "<p>For each statement, select True or False.</p><br><ol><li>Because senior executives have rights to access sensitive data, they should use administrator accounts.</li></ol><br>",
     "image_file_name": null,
-    "answers": []
+    "answers": [
+      {
+        "rawText": "<p>True</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>False</p>",
+        "correctAnswer": true
+      }
+    ]
   },
   {
     "questionText": "<div>\n Which protocol is responsible for resolving domain names to IP addresses?\n</div>",
@@ -5011,7 +5083,16 @@
   {
     "questionText": "<p>Pop-ups can display a realistic operating system or application error message.</p>",
     "image_file_name": null,
-    "answers": []
+    "answers": [
+      {
+        "rawText": "<p>True</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>False</p>",
+        "correctAnswer": false
+      }
+    ]
   },
   {
     "questionText": "<div>\n You are an intern at Sunset Web. You help manage 1000 workstations. All the workstations are members of an Active Directory Domain. You need to push an application security patch to all workstations. What is the quickest method to do this?\n</div>",

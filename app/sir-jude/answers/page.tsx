@@ -62,7 +62,7 @@ export default function SirJudeAnswersPage() {
                   </div>
 
                   <div
-                    className="text-base leading-relaxed md:text-lg prose prose-invert max-w-none [&>p]:m-0"
+                    className="text-base leading-relaxed md:text-lg prose dark:prose-invert max-w-none [&>p]:m-0"
                     dangerouslySetInnerHTML={{ __html: q.questionText }}
                   />
 
@@ -104,7 +104,7 @@ export default function SirJudeAnswersPage() {
                           )}
                         </div>
                         <div
-                          className="flex-1 leading-relaxed prose prose-sm prose-invert max-w-none [&>p]:m-0"
+                          className="flex-1 leading-relaxed prose prose-sm dark:prose-invert max-w-none [&>p]:m-0"
                           dangerouslySetInnerHTML={{ __html: ans.rawText }}
                         />
                       </div>
