@@ -151,6 +151,8 @@ function QuizScreen({ questions, onFinish }: QuizScreenProps) {
   const [answers, setAnswers] = useState<AnswerRecord[]>([]);
   const [elapsed, setElapsed] = useState(0);
 
+  // Remove useEffect for state loading since it produces react-hooks/set-state-in-effect warning.
+
   useEffect(() => {
     const id = setInterval(() => setElapsed((e) => e + 1), 1000);
     return () => clearInterval(id);
@@ -173,10 +175,32 @@ function QuizScreen({ questions, onFinish }: QuizScreenProps) {
       correctIndices.length === selectedIndices.length &&
       correctIndices.every((c) => selectedIndices.includes(c));
 
-    setAnswers((p) => [
-      ...p,
-      { questionIndex: current, selectedIndices, correctIndices, isCorrect },
-    ]);
+    setAnswers((p) => {
+      const copy = [...p];
+      const existingIdx = copy.findIndex((a) => a.questionIndex === current);
+      const newRecord = {
+        questionIndex: current,
+        selectedIndices,
+        correctIndices,
+        isCorrect,
+      };
+      if (existingIdx >= 0) {
+        copy[existingIdx] = newRecord;
+        return copy;
+      }
+      return [...copy, newRecord];
+    });
+  };
+
+  const loadQuestionData = (idx: number) => {
+    const existing = answers.find((a) => a.questionIndex === idx);
+    if (existing) {
+      setSelectedIndices(existing.selectedIndices);
+      setConfirmed(true);
+    } else {
+      setSelectedIndices([]);
+      setConfirmed(false);
+    }
   };
 
   const next = () => {
@@ -184,9 +208,17 @@ function QuizScreen({ questions, onFinish }: QuizScreenProps) {
       onFinish(answers, elapsed);
       return;
     }
-    setCurrent((c) => c + 1);
-    setSelectedIndices([]);
-    setConfirmed(false);
+    const nextIdx = current + 1;
+    setCurrent(nextIdx);
+    loadQuestionData(nextIdx);
+  };
+
+  const previous = () => {
+    if (current > 0) {
+      const prevIdx = current - 1;
+      setCurrent(prevIdx);
+      loadQuestionData(prevIdx);
+    }
   };
 
   return (
@@ -367,20 +399,31 @@ function QuizScreen({ questions, onFinish }: QuizScreenProps) {
 
             <Separator className="my-4" />
 
-            {!confirmed ? (
+            <div className="flex gap-3">
               <Button
-                onClick={confirm}
-                disabled={selectedIndices.length === 0}
+                variant="outline"
                 size="lg"
-                className="w-full"
+                onClick={previous}
+                disabled={current === 0}
+                className="w-1/3"
               >
-                Confirm
+                Previous
               </Button>
-            ) : (
-              <Button onClick={next} size="lg" className="w-full">
-                {current + 1 >= TOTAL ? "See Results" : "Next Question"}
-              </Button>
-            )}
+              {!confirmed ? (
+                <Button
+                  onClick={confirm}
+                  disabled={selectedIndices.length === 0}
+                  size="lg"
+                  className="w-2/3"
+                >
+                  Confirm
+                </Button>
+              ) : (
+                <Button onClick={next} size="lg" className="w-2/3">
+                  {current + 1 >= TOTAL ? "See Results" : "Next Question"}
+                </Button>
+              )}
+            </div>
           </CardContent>
         </Card>
       </main>

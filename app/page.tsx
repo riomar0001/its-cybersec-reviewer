@@ -2659,13 +2659,32 @@ function QuizScreen({ questions, onFinish }: QuizScreenProps) {
   const displayQ = isMatch ? q.question.replace("[MATCH] ", "") : q.question;
   const score = answers.filter((a) => a.selected === a.correct).length;
 
+  // Remove useEffect for state loading since it produces react-hooks/set-state-in-effect warning.
+
   const confirm = () => {
     if (selected === null) return;
     setConfirmed(true);
-    setAnswers((p) => [
-      ...p,
-      { questionIndex: current, selected, correct: q.answer },
-    ]);
+    setAnswers((p) => {
+      const copy = [...p];
+      const existingIdx = copy.findIndex((a) => a.questionIndex === current);
+      const newRecord = { questionIndex: current, selected, correct: q.answer };
+      if (existingIdx >= 0) {
+        copy[existingIdx] = newRecord;
+        return copy;
+      }
+      return [...copy, newRecord];
+    });
+  };
+
+  const loadQuestionData = (idx: number) => {
+    const existing = answers.find((a) => a.questionIndex === idx);
+    if (existing) {
+      setSelected(existing.selected);
+      setConfirmed(true);
+    } else {
+      setSelected(null);
+      setConfirmed(false);
+    }
   };
 
   const next = () => {
@@ -2673,9 +2692,17 @@ function QuizScreen({ questions, onFinish }: QuizScreenProps) {
       onFinish(answers, elapsed);
       return;
     }
-    setCurrent((c) => c + 1);
-    setSelected(null);
-    setConfirmed(false);
+    const nextIdx = current + 1;
+    setCurrent(nextIdx);
+    loadQuestionData(nextIdx);
+  };
+
+  const previous = () => {
+    if (current > 0) {
+      const prevIdx = current - 1;
+      setCurrent(prevIdx);
+      loadQuestionData(prevIdx);
+    }
   };
 
   const optionClass = (i: number) => {
@@ -2789,20 +2816,31 @@ function QuizScreen({ questions, onFinish }: QuizScreenProps) {
 
             <Separator />
 
-            {!confirmed ? (
+            <div className="flex gap-3">
               <Button
-                onClick={confirm}
-                disabled={selected === null}
+                variant="outline"
                 size="lg"
-                className="w-full"
+                onClick={previous}
+                disabled={current === 0}
+                className="w-1/3"
               >
-                Confirm
+                Previous
               </Button>
-            ) : (
-              <Button onClick={next} size="lg" className="w-full">
-                {current + 1 >= TOTAL ? "See Results" : "Next"}
-              </Button>
-            )}
+              {!confirmed ? (
+                <Button
+                  onClick={confirm}
+                  disabled={selected === null}
+                  size="lg"
+                  className="w-2/3"
+                >
+                  Confirm
+                </Button>
+              ) : (
+                <Button onClick={next} size="lg" className="w-2/3">
+                  {current + 1 >= TOTAL ? "See Results" : "Next"}
+                </Button>
+              )}
+            </div>
           </CardContent>
         </Card>
       </main>
