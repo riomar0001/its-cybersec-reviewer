@@ -1,0 +1,5038 @@
+[
+  {
+    "questionText": "<p><strong>Which action will trigger a user account control (UAC) prompt in Windows?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Changing settings in the Display Properties dialog box</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Restarting Windows</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Accessing the Internet</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>&nbsp;Installing a new program</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Changing the time zone</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You work as a network administrator for Peach Tree Inc. Rick, a Sales Manager, is unable to open a file that is stored on a network location. He requires editing that file for generating some reports. You provide him the Write NTFS permission on the file. He is still unable to access the file. He is a member of several groups. You want to check his effective permissions for the file. </strong></p><p><strong>Which of the following steps will you take to accomplish the task?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>From the command prompt, run the WinRS utility</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>In the file properties, view the Security tab.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>In the file properties &gt; click the Advanced button on the Security tab. View Effective Permissions tab.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>From the command prompt, run the Winrm utility.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You need to configure a folder that allows everyone in your group to view and modify files. Which item in the Share With menu should you use?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Nobody</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Homegroup (Read</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Homegroup (Read/Write)</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Specific People</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>A Windows service is a:&nbsp;</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>program or process that runs in the foreground</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>hardware driver that provides support to the operating system</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>hardware driver that provides support to a specific device</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>program or process that runs in the background and does not require user intervention</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which of the following network locations is controlled by the network administrator and cannot be selected or changed?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Public network</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Home network</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Work network</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Domain network</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which Windows feature allows you to request that someone else control your computer from their computer?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Sync Center</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Action Center</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Connect Now</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Remote Assistance</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which of the following is the difference between local and network applications?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>A network application is loaded in a local computer and accessed from a remote computer, whereas a local application is loaded in a local computer and accessed only by the local computer.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>A local application is loaded in a local computer and accessed from a remote computer, whereas a network application is loaded in a local computer and accessed only by the local computer</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>A network application is loaded in a local computer, whereas a local application is loaded in an administrative compute</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>A network application is loaded in a remote computer, whereas a local application is loaded in a local computer.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which program will run on a 64-bit version of the Windows operating system?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>A 32-bit laser printer driver.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>A 32-bit version of Microsoft Office.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>A 32-bit wireless network adapter driver</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>A 32-bit video card driver.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which Windows feature will allow you to run automated scripts on a remote computer?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Remote Desktop Connection</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Virtual Private Network</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Remote Access Service</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Windows Remote Management</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which feature allows you to manually configure a hardware device?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Device Manager</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Registry Editor</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Windows Task Manager</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Ease of Access</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>The Encrypting File System (EFS) is a:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>feature that enables files to be stored in a secure format</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>sequence of characters used to encrypt and decrypt information stored in a folder</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>digital document that verifies the identity of a user</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>specially made hard disk drive that requires a password</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which of the following steps will you take to install a local printer? Each correct answer represents a part of the solution. </strong><strong><span style=\"text-decoration:underline;\">Choose all that apply.</span></strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>In the Add Printer wizard, click Add a local printer.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>On Choose a printer port, select Use an existing port, and then select the recommended port.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>On the Install the printer driver page, select the printer manufacturer and model, and then click next</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Click the Start button and open Device Manager.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which prevents you from establishing a Remote Desktop connection to a remote computer?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Incorrect screen resolution in the Display Properties dialog box.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Incorrect port settings in Windows Firewall.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Incorrect security settings in Internet Explorer.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Incorrect monitor settings in Device Manager</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You need to be able to recover an encrypted file even if you lose the key. What should you do?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Use Bitlocker encryption.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Use System Restore to create a system restore point.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Create a recovery certificate and store it on a portable device.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Use the Encrypting File System (EFS).</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p>You want to connect to a wireless access point. You need to view a list of available networks. Which two actions should you perform? <strong>(Each correct answer presents a complete solution.&nbsp;Choose two.)</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Click the network icon in the notification area.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>From Control Panel, use Network and Sharing Center.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>From Control Panel, use Windows Mobility Center.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>From Control Panel, use Sync Center.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>From Control Panel, use Ease of Access.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which of the following steps will you take to remove a printer? Each correct answer represents a part of the solution. </strong><strong><span style=\"text-decoration:underline;\">Choose all that apply.</span></strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Open the Devices and Printers window.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Open Device Manager.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Right-click the device, and then click Enable.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Right-click the printer and choose Remove device.</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Windows hides some files by default to:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>improve access to system file</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>save disk space</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>protect the confidentiality of the contents of files</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>avoid accidental modification or deletion of system files</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>The purpose of a Public folder is to:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>share files with everyone on a network</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>share files with only one person on a network</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>share files with a selected group of people on a network</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>back up files to a location on a network</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p>Joseph works as a Desktop Support Technician for www.company.com Inc. As part of his responsibilities, he has to monitor the performance of computers on a regular basis. He runs Windows Defender on a computer and receives the following warning message: </p><br><p>\"Windows Defender Definitions haven't been updated\". </p><br><p>He wants to resolve this issue and ensure that this message is not displayed. For this, he has to update Windows Defender definition files. </p><p><strong>What will he do to update the files?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Download and install the latest Windows Defender application from the Microsoft website.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Restart the Windows Defender.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Download and install the appropriate files from the Microsoft website.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Repair the Microsoft Location Finder program.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Where will you find information about removing computer viruses?&nbsp;</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>System Restore</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Help and Support</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Disk Cleanup</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>System Information</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which Windows feature should you use to protect a computer against spyware?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Encrypting File System</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>User Account Control</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Windows Defender</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Group Policy</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which file system is designed for transfer of large files between a personal computer and flash devices?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>exFAT file system</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>FAT16 file system</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>NTFS file system</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>FAT32 file system</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>What is the largest single file that you can store on a FAT32 file system?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>32GB</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>16GB</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>4GB</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>8GB</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You are an IT consultant for the startup company BlueSkwer.com which has only three computers. The company wants you to configure the computers so that they can share a few Word and Excel documents. You determine that creating a homegroup would fit their needs. When you go to the Control Panel and then Network and Internet, you see a notice that says: This computer can't connect to homegroup. </strong></p><p><strong>What must you change so that this computer can connect to a homegroup</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>The computer's network location must be set to Home.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Reboot the computer.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>The computer's network location must be set to Work.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>The computer's network location must be set to Public.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which describes the purpose of Power Saver mode for a portable computer?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>To prevent unauthorized programs from consuming resources</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>&nbsp;To lock the computer when it is idle</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>To protect the display from burned-in images.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>To shut down idle devices to conserve battery charge</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You work as a System Administrator for BlueSkwer.com. It has been determined by the technology committee to use BitLocker to protect the company laptops. You will be utilizing BitLocker to protect the data on both fixed and removable data drives. In the next step, you must determine the unlock method. When using BitLocker, what are the available unlock options? Each correct answer represents a complete solution. </strong><strong><span style=\"text-decoration:underline;\">Choose all that apply.</span></strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Automatic unlocking</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Startup key</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Password</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Smart Card</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>The Remote Desktop Connection is used to:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>access another personal computer</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>attend a webinar</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>search the Internet</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>conduct a Lync Online Meeting</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You attempt to print to a network printer, but you are unable to find the printer when you search for available printers. What is a reason that you might not be able to find the printer?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Windows Firewall is blocking network discovery.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>The computer that the printer is connected to is turned off.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>The printer does not have the Plug and Play functionality.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>The printer is out of paper</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You want to change your default home page in Internet Explorer. In which location should you modify settings?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Internet Options</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Favorites</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>View</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Trusted Sites</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which Windows feature allows you to manually control another Windows computer?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Remote Control Monitor</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Remote Desktop Connection</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Remote Power Management</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Remote Procedure Call</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which Windows component should you use to make a copy of all files on your computer?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Disk Management</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>System Image Backup</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Disk Cleanup</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>System Restore&nbsp;</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You need to be able to access a file stored in a shared folder on your network even when you are disconnected from the network. What should you do?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Configure the folder permissions as Read/Write.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>From Control Panel, use Network and Internet.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Make the folder available offline.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Type the IP address of the network computer in the Address field of Internet Explorer.&nbsp;</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which feature allows you to run applications hosted on network file servers or web servers?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Remote Desktop Connection</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Windows Virtual PC</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Windows Installer</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Application Virtualization Client</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You attempt to update your video driver. Your screen stops responding. You need to be able to restore the previous video driver. Which Windows feature should you use?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Safe Mode</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Disk Defragmenter</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Disk Cleanup</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Check Disk (Chkdsk)</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which feature ensures that the latest device drivers are installed on your computer?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>System configuration Utility</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Reliability and Performance Monitor</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Windows Update</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Task Scheduler</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which is a potential risk when redirecting a USB storage device during a Remote Desktop session?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Access can be slower.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Data can be lost.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>The session can stop responding.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>The device can stop working.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which Windows feature allows secure printing over the Internet?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Secure Transfer Protocol (STP)</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Voce over Internet Protocol (VoIP)</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Web2Print</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Internet Printing Protocol (IPP) by using HTTPS</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Your computer is running slower than usual. Where should you look to find out which applications are consuming the maximum number of resources?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Administrative Tools</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Device Manager</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Network and Sharing Center</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>System Tray</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Task Manager</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You need a script to run at a specific time. Which Windows component should you use?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Event Viewer</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Device Manager</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Task Scheduler</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Task Manager</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which feature allows you to change the display resolution of a computer monitor?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Appearance and Personalization</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Device Manager</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Computer Management Console</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>System Configuration Tool</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>BitLocker prevents:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>unauthorized access to files</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>programs from accessing the memory of other programs</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>the operating system from overwriting protected sectors on the hard disk drive</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>unauthorized users from accessing the Internet</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You work as a Network Administrator for www.company.com Inc. You want to use the cloud computing service over your organization. Which of the following is the biggest security control loss with cloud computing?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Physical control loss over data</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Backup control loss over data</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Administrative access loss to data</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Logical control loss over data</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You need to find out whether your computer has received the most recent critical Windows&nbsp;updates. What should you do?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>From Control Panel, use Programs.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>From Administration Tools, view Event Logs</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>From the Computer Management console, view Services and Applications.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>From Windows Update, select View Update History.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which feature should you use to install the most recent definitions for Windows Defender?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Sync Center</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Programs and Features</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Windows Update</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Windows Installer</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which of the following steps will you take to configure automatic updates? Each correct answer represents a part of the solution. </strong><strong><span style=\"text-decoration:underline;\">Choose all that apply.</span></strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Open the Control Panel and click System and Security. (If the Control Panel is not in Category view, click Windows Update, and then click Change settings.)</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Under Windows Update, click \"Turn automatic updating on or off\". The Change Settings window opens.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Configure the update options as needed and click OK.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Open the Control Panel and click Add or Remove Program.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Your computer is slow to start, and file access in Windows is slow. Which Windows feature should you use to improve performance?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>System Restore</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Disk Format</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Disk Defragmenter</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>windows Defender</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>PowerShell is used to:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>extend the life of the battery</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>monitor user keystroke</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>repair damaged hard disk drive sectors</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>automate a routine task</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You need to upgrade your computer from the FAT file system to an NTFS file system. What should you do?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Use the Convert C:/fs:ntfs command.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Clear the hard disk drive by using the Format tool.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Use the Backup and Restore tool.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Run the Windows Easy Transfer tool.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You need to configure a folder that allows everyone in your department to view and edit the files in the folder. You also need to ensure that users outside the department cannot access the files. What should you do?&nbsp;</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Place the files in one of the Windows public folders.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Grant read access to specific people by using the Share With menu.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Grant read/write access to specific people by using the Share With menu.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>&nbsp;Grant access to a single user by using the Share With menu.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Windows Aero is a:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>desktop theme</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Windows application</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>device driver</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>pointing device</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which feature ensures that your personal computer always has the latest patches and fixes for the operating system?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Reliability and Performance Monitor</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Programs and Features</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Windows Update</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>System Configuration Utility</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+
+  {
+    "questionText": "<p><strong>IPsec adds overhead for all network communications for which it is used.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which enables you to change the permissions on a folder?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Take ownership</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>Auditing</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Modify</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Extended attributes</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>User Account Control (UAC) reduces your permission to that of a standard user unless higher permissions are necessary.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You can view the audit logs in the Event Viewer.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Your password is </strong><strong><span style=\"text-decoration:underline;\">1Vu*cI!8sT.</span></strong></p><p><strong>Which attack method is your password vulnerable to?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Spidering</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Brute force</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Dictionary</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Rainbow table</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>A network sniffer is software or hardware that:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Captures and analyzes network communication</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Records user activity and transmits it to the server</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Protects workstations from intrusions</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;</span>Catalogs network data to create a secure index</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>An employee where you work is unable to access the company message board in Internet Explorer. You review her Internet Options dialog box, as shown in the following image:</strong></p>\n<br>\n<br>\n<p><a href=\"https://umindanao.blackboard.com/bbcswebdav/pid-2340776-dt-asiobject-rid-73122017_1/xid-73122017_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;its_18.png&quot;,&quot;displayName&quot;:&quot;its_18.png&quot;,&quot;fileName&quot;:&quot;its_18.png&quot;,&quot;fileSize&quot;:192060,&quot;mimeType&quot;:&quot;image/png&quot;,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;resourceUrl&quot;:&quot;https://umindanao.blackboard.com/sessions/95/9531A40B280E4C1175491F971B20A594/f4ac204008a54e3caebeb90ee72f8148/its_18.png&quot;,&quot;linkName&quot;:&quot;its_18.png&quot;}\">its_18.png</a></p>\n<p><strong>The employee can see the site, but ActiveX controls will not load. You have to ________________________.</strong></p>",
+    "image_file_name": "2-7.png",
+    "answers": [
+      {
+        "rawText": "<p>Change the security level on the Local Intranet</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Change the security level on the Internet</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Uncheck enabled protected mode.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>To prevent users from copying data to removable media, you should:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Apply a group policy</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Store media in a locked room</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>Lock the computer cases</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Disable copy and paste</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>What is a service set identifier (SSID)?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>The broadcast name of an access point</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>The wireless LAN transmission type</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>A wireless security protocol</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>A wireless encryption standard</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>E-mail bombing attacks a specific entity by:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Sending high volumes of e-mail</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Triggering high levels of security alerts</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Redirecting all e-mail to another entity</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Tracing e-mail to the destination address</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Role separation improves server security by:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Placing servers on separate VLANs.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Installing applications on separate hard disks.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Physically separating high security servers from other servers.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Enforcing the principle of least privilege.</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>What is a common method for password collection?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Back door intrusions</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;</span>Network sniffers</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>SQL Injection</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Email attachments</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p>To protect users from untrusted browser pop-ups, you may set a default browser configuration that blocks all pop-ups and automated downloads.</p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You are an intern and are working remotely. You need a solution that meets the following requirements:</strong></p><p><strong>✑ Allows you to access data on the company network securely</strong></p><p><strong>✑ Gives you the same privileges and access as if you were in the office</strong></p><p><strong>What are two connection methods you could use? </strong><strong><span style=\"text-decoration:underline;\">(Choose two.)</span></strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Virtual Private Network (VPN)</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Remote Access Service (RAS)</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Forward Proxy</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Roaming Profiles</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You need to prevent unauthorized users from reading a specific file on a portable computer if the portable computer is stolen. </strong></p><br><p><strong>What should you implement?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>BitLocker</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Folder-level permissions</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Advanced Encryption Standard (AES)</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>File-level permissions</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Distributed File System (DFS)</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>What are three major attack vectors that a social engineering hacker may use? (Choose three.)</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Honey pot systems</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Waste management</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Reverse social engineering</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Telephone</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Firewall interface</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Bitlocker to Go Reader allows you to encrypt drives.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Windows Server Update Services (WSUS) is a tool that:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Manages updates for Microsoft software</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Updates licensing for Windows servers</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Updates data stored in Windows servers</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Manages the services that run on a server</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>The purpose of a digital certificate is to verify that a:</strong></p><br>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Public key belongs to a sender.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Digital document is complete.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Computer is virus-free.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Private key belongs to a sender.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>A mail system administrator scans for viruses in incoming emails to </strong><strong><span style=\"text-decoration:underline;\">increase the speed of mail processing.</span></strong><strong> Select the correct answer if the underlined text does not make the statement correct. Select \"No change is needed\" if the underlined text makes the statement correct.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Ensure that all links in the messages are trustworthy</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>Decrease the chances of a virus getting to a client machine</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Verify that the senders of the messages are legitimate</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>No change is needed.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>To implement WPA2 Enterprise, you would need a/an:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>WEP server</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>SSL server</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>RADIUS server</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>VPN server</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You create a web server for your school. When users visit your site, they get a certificate error that says your site is not trusted. What should you do to fix this problem?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>Use a digital signature.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Generate a certificate request.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>Install a certificate from a trusted Certificate Authority (CA).</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Enable Public Keys on your website.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which two are included in an enterprise antivirus program? </strong><strong><span style=\"text-decoration:underline;\">(Choose two.)</span></strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>On-demand scanning</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Attack surface scanning</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Packet scanning</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Scheduled scanning</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which is a special folder permission?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Modify</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Read</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Delete</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Write</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>To protect systems from buffer overflow errors, you can use:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>An Intruder Prevention System</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>A proxy server</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Data Execution Prevention</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Antivirus software</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Clients can verify that the DNS server that they are communicating with is legitimate.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>A system access control list (SACL) enables administrators to log attempts to access a secured object. </strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>In Internet Explorer 8, the InPrivate Browsing feature prevents:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Any session data from being stored on the computer.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Unauthorized private data input.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>User credentials from being sent over the Internet.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Unencrypted communication between the client computer and the server.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>BitLocker to work on Windows Vista and Windows XP</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>The default password length for a Windows Server domain controller is:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>5</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>0</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>14</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>7</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p>If you computer is on a domain, your network administrator can reset your password.</p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>An administrator account can reset a password for a standard user account.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Humongous Insurance needs to set up a domain controller in a branch office. Unfortunately, the server cannot be sufficiently secured from access by employees in that office, so the company is installing a P</strong><strong><span style=\"text-decoration:underline;\">rimary Domain Controller</span></strong><strong>.</strong></p><br><p><strong>Select the correct answer if the underlined text does not make the statement correct. Select \"No change is needed\" if the underlined text makes the statement correct.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Read-Only Domain Controller</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>No change is needed.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Backup Domain Controller</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Active Directory Server</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Bitlocker to Go Reader requires drives that are encrypted using a password.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Network Access Protection (NAP) enables administrators to control access to network resources based on a computer's:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Physical location</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>&nbsp;Warranty</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Encryption level</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Configuration</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>A group of users has access to Folder A and all of its contents. You need to prevent some of the users from accessing the subfolder inside Folder A. </strong></p><p><strong>What&nbsp;should you do first?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Disable folder sharing</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Hide the folder</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Block inheritance</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Change the owner</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>What is an example of non-propagating malicious code?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>A worm</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>A hoax</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>A Trojan horse</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>A back door</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>This question requires that you evaluate the underlined text to determine if it is correct. </strong></p><br><p><strong>The first line of defense against attacks from the Internet is a </strong><strong><span style=\"text-decoration:underline;\">software firewall</span></strong><strong>. </strong></p><br><p><strong>Select the correct answer if the underlined text does not make the statement correct. Select \"No change is needed'' if the underlined text makes the statement correct.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>No change is needed</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>hardware firewall</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>virus software</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>radius server</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>User Account Control (UAC) notifies you when additional permissions are required and asks if you wish to continue.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p>Alice sends her password to the game server in plaintext. Chuck is able to observe her</p>\n<p>password as shown in the following image:</p>\n<br>\n<br>\n<p><a href=\"https://umindanao.blackboard.com/bbcswebdav/pid-2340752-dt-asiobject-rid-73122009_1/xid-73122009_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;its_9.png&quot;,&quot;displayName&quot;:&quot;its_9.png&quot;,&quot;fileName&quot;:&quot;its_9.png&quot;,&quot;fileSize&quot;:56593,&quot;mimeType&quot;:&quot;image/png&quot;,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;resourceUrl&quot;:&quot;https://umindanao.blackboard.com/sessions/95/9531A40B280E4C1175491F971B20A594/3bdd62e469ee4ef6bd7bbca519257d7f/its_9.png&quot;,&quot;linkName&quot;:&quot;its_9.png&quot;}\">its_9.png</a></p>\n<p>Use the drop-down menu to select the answer choice that completes each statement.</p>\n<p>Each correct selection is worth one point.</p>\n<br>\n<p><strong>The scenario demonstrated is a (n) __________________ attack.</strong></p>",
+    "image_file_name": "2-40.png",
+    "answers": [
+      {
+        "rawText": "<p>denial of service</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>eavesdropping</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>man in the middle</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>The Graphic Design Institute hires you to help them set up a server for their 20-person team. As a general practice of hardening the server, you start by performing which two tasks? </strong><strong><span style=\"text-decoration:underline;\">(Choose two.)</span></strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Rename the admin account.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Remove the account lockout policy.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Format partitions with FAT32.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Disable the guest account.</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>When conducting a security audit the first step is to:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Set up a virus quarantine area</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>&nbsp;Inventory the company's technology assets</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Install auditing software on your serve</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Set up the system logs to audit security events</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Phishing is an attempt to:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>Obtain information by posing as a trustworthy entity.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Corrupt e-mail databases through the use of viruses.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Steal data through the use of network intrusion.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>Limit access to e-mail systems by authorized users.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Because senior executives have rights to access sensitive data, they should use administrator accounts.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>IPsec encrypts data.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p>The <span style=\"text-decoration:underline;\">WPA2 PreShared Key (PSK) </span>is created by using a passphrase (password) and salting it with the WPS PIN. Select the correct answer if the underlined text does not make the statement correct. Select</p><p>\"No change is needed\" if the underlined text makes the statement correct.</p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Admin password</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Service Set Identifier (SSID)</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>WEP key</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>No change is needed</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You are preparing a local audit policy for your workstation. No auditing is enabled. The settings of your policy are shown in the following image:</strong></p>\n<br>\n<p><a href=\"https://umindanao.blackboard.com/bbcswebdav/pid-2340777-dt-asiobject-rid-73122024_1/xid-73122024_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;its_19.png&quot;,&quot;displayName&quot;:&quot;its_19.png&quot;,&quot;fileName&quot;:&quot;its_19.png&quot;,&quot;fileSize&quot;:452257,&quot;mimeType&quot;:&quot;image/png&quot;,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;resourceUrl&quot;:&quot;https://umindanao.blackboard.com/sessions/95/9531A40B280E4C1175491F971B20A594/ca224d059fd146c48f00a5f2de751b0b/its_19.png&quot;,&quot;linkName&quot;:&quot;its_19.png&quot;}\">its_19.png</a></p>\n<p><strong>In order to log in each time the computer validates your account credentials, the ________________ policy needs to be enabled.</strong></p>",
+    "image_file_name": "2-47.png",
+    "answers": [
+      {
+        "rawText": "<p>Audit Object Access</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Audit account logon events</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Audit logon events</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong><span style=\"text-decoration:underline;\">Bridging</span></strong><strong> is a process of sending packets from source to destination on OSI layer 3. Select the correct answer if the underlined text does not make the statement correct. Select. \"No change is needed\" if the underlined text makes the statement correct.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Routing</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Switching</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Repeating</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>No change is needed.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You need to install a domain controller in a branch office. You also need to secure the information on the domain controller. You will be unable to physically secure the server. What should you implement?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Read-Only Domain Controller</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Layer 2 Tunneling Protocol (L2TP)</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Server Core Domain Controller</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Point-to-Point Tunneling Protocol (PPTP)</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You are preparing an audit policy for the workstations at Contoso, Ltd. Currently, no advanced auditing is enabled. These workstations are not members of the domain. </strong></p>\n<p><strong>The settings of your Advanced Audit Policy Configuration are shown in the following image:</strong></p>\n<br>\n<br>\n<p><a href=\"https://umindanao.blackboard.com/bbcswebdav/pid-2340802-dt-asiobject-rid-73122038_1/xid-73122038_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;its_21.png&quot;,&quot;displayName&quot;:&quot;its_21.png&quot;,&quot;fileName&quot;:&quot;its_21.png&quot;,&quot;fileSize&quot;:480010,&quot;mimeType&quot;:&quot;image/png&quot;,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;resourceUrl&quot;:&quot;https://umindanao.blackboard.com/sessions/0F/0FE7AA84F6548938D52E516892B70CD8/36a11dd9b2e64c049e22d982f0339e87/its_21.png&quot;,&quot;linkName&quot;:&quot;its_21.png&quot;}\">its_21.png</a></p>\n<p><strong>To enable auditing of all local events, you need to turn on the _______________________________ Advanced Audit Policy.</strong></p>",
+    "image_file_name": "2-50.png",
+    "answers": [
+      {
+        "rawText": "<p>Logon/Logoff</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>System</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Account Logon</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>There is a risk of losing access to encrypted files if a password is reset</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>IPsec requires network applications to be IPsec aware.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>An employee where you work is unable to access the company message board in Internet Explorer. You review her Internet Options dialog box, as shown in the following image:</strong></p>\n<br>\n<br>\n<p><a href=\"https://umindanao.blackboard.com/bbcswebdav/pid-2340775-dt-asiobject-rid-73122017_1/xid-73122017_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;its_18.png&quot;,&quot;displayName&quot;:&quot;its_18.png&quot;,&quot;fileName&quot;:&quot;its_18.png&quot;,&quot;fileSize&quot;:192060,&quot;mimeType&quot;:&quot;image/png&quot;,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;resourceUrl&quot;:&quot;https://umindanao.blackboard.com/sessions/95/9531A40B280E4C1175491F971B20A594/f4ac204008a54e3caebeb90ee72f8148/its_18.png&quot;,&quot;linkName&quot;:&quot;its_18.png&quot;}\">its_18.png</a></p>\n<p><strong>The message board, http://mkteam/, would be affected by the settings under the _____________________________ security zone.</strong></p>\n<br>",
+    "image_file_name": "2-53.png",
+    "answers": [
+      {
+        "rawText": "<p>Restricted Sites</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Internet</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Local Intranet</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You are at school and logged in to a Windows 7 computer using a standard user account. You need to change some of the properties of a desktop icon for an assignment. Your instructor provides you with an administrator username and password and asks you to do two tasks.</strong></p>\n<br>\n<p>When you open the Need Admin Access Properties window, you see the following image:</p>\n<br>\n<br>\n<p><a href=\"https://umindanao.blackboard.com/bbcswebdav/pid-2340788-dt-asiobject-rid-73122031_1/xid-73122031_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;its_20.png&quot;,&quot;displayName&quot;:&quot;its_20.png&quot;,&quot;fileName&quot;:&quot;its_20.png&quot;,&quot;fileSize&quot;:179709,&quot;mimeType&quot;:&quot;image/png&quot;,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;resourceUrl&quot;:&quot;https://umindanao.blackboard.com/sessions/0F/0FE7AA84F6548938D52E516892B70CD8/a9fc7f04842041fc83e0e26c8cc104f7/its_20.png&quot;,&quot;linkName&quot;:&quot;its_20.png&quot;}\">its_20.png</a></p>\n<p><strong>To allow this log file to be opened as an administrator, you should ________________________________.</strong></p>",
+    "image_file_name": "2-54.png",
+    "answers": [
+      {
+        "rawText": "<p>Click Advanced and choose \"run as administrator.\"</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Click Run and choose \"run as administer\"</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Click on the Security tab and give admin rights to your standard account.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Cookies impact security by enabling: </strong><strong><span style=\"text-decoration:underline;\">(Choose two.)</span></strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Higher security Web site protections.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Storage of Web site passwords.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>Websites to track browsing habits.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Secure Sockets Layer (SSL).</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>The </strong><strong><span style=\"text-decoration:underline;\">Windows Firewal</span></strong><strong>l protects computers from unauthorized network connections. </strong></p><br><p><strong>Select the correct answer if the underlined text does not make the statement correct. Select \"No change is needed'' if the underlined text makes the statement correct.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Email viruses</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>No change is needed</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Phishing scams</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Unencrypted network access</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>The company that you work for wants to set up a secure network, but they do not have any servers. Which three security methods require the use of a server? </strong><strong><span style=\"text-decoration:underline;\">(Choose three.)</span></strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>.802.1x</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>WPA2 Personal</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>802.11ac</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>WPA2 Enterprise</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>RADIUS</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>The</strong><strong><span style=\"text-decoration:underline;\"> Active Directory controls</span></strong><strong>, enforces, and assigns security policies and access rights for all users. Select the correct answer if the underlined text does not make the statement correct. Select \"No change is needed\" if the underlined text makes the statement correct.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>User Account Control</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Registry</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>NTFS permissions</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>No change is needed</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which type of firewall allows for inspection of all characteristics of a packet?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Stateless</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Windows Defender</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>NAT</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Stateful</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>System Administrators should use a standard user account when performing routine functions like reading emails and browsing the Internet.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You are at school and logged in to a Windows 7 computer using a standard user account. You need to change some of the properties of a desktop icon for an assignment. Your instructor provides you with an administrator username and password and asks you to do two tasks.</strong></p>\n<br>\n<p>When you open the Need Admin Access Properties window, you see the following image:</p>\n<br>\n<br>\n<p><a href=\"https://umindanao.blackboard.com/bbcswebdav/pid-2340789-dt-asiobject-rid-73122031_1/xid-73122031_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;its_20.png&quot;,&quot;displayName&quot;:&quot;its_20.png&quot;,&quot;fileName&quot;:&quot;its_20.png&quot;,&quot;fileSize&quot;:179709,&quot;mimeType&quot;:&quot;image/png&quot;,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;resourceUrl&quot;:&quot;https://umindanao.blackboard.com/sessions/0F/0FE7AA84F6548938D52E516892B70CD8/a9fc7f04842041fc83e0e26c8cc104f7/its_20.png&quot;,&quot;linkName&quot;:&quot;its_20.png&quot;}\">its_20.png</a></p>\n<p><strong>To allow this log file to be opened in a maximized window, you should ________________________________.</strong></p>",
+    "image_file_name": "2-61.png",
+    "answers": [
+      {
+        "rawText": "<p>Click the Change Icon to choose \"run as a maximized window.\"</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Click run and choose \"maximized window.\"</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Click on the General tab and click \"Change to open the document as a minimized window.\"</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which attack listens to network traffic of a computer resource?</strong></p><br>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Eavesdropping</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>ARP poisoning</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Denial of service</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Logic bomb</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Resource gathering</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Before you deploy Network Access Protection (NAP), you must install:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Internet Information Server (IIS)</p><br>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Network Policy Server (NPS)</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Active Directory Federation Services</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Windows Update Service</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Basic security questions used to reset a password are susceptible to:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Trojan horses</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Hashing</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Network sniffing</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Social engineering</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Domain Name System Security Extensions (DNSSEC) prevents man-in-the middle attacks for DNS queries.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>To keep third-party content providers from tracking your movements on the web, enable </strong><strong><span style=\"text-decoration:underline;\">InPrivate Browsing</span></strong><strong>. Select the correct answer if the underlined text does not make the statement correct. Select \"No change is needed'' if the underlined text makes the statement correct.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Compatibility Mode</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>InPrivate Filtering</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>SmartScreen Filter</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>No change is needed</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You are volunteering at an organization that gets a brand new web server. </strong></p><p><strong>To make the server more secure, you should </strong><strong><span style=\"text-decoration:underline;\">add a second administrator account</span></strong><strong>. Select the correct answer if the underlined text does not make the statement correct. </strong></p><p><strong>Select \"No change is needed\" if the underlined text makes the statement correct.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Enable LM authentication</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>No change is needed.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Enable NTLM authentication</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Disable unused services</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Setting a minimum password age restricts when users can:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Request a password reset</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Set their own password expiration</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Change their passwords</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Log on by using their passwords</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Password history policies are used to prevent:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Users from sharing passwords</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Brute force attacks</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Social engineering</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Passwords from being reused immediately</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>The User Account Control (UAC) has one overall goal: to grant users the lowest level of permission required to complete their tasks.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which technology enables you to filter communications between a program and the Internet?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Software firewall</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>BitLocker To Go</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>RADIUS server</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Antivirus software</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p>A user who receives a large number of emails selling prescription medicine is probably receiving <strong><span style=\"text-decoration:underline;\">pharming</span></strong> mail. Select the correct answer if the underlined text does not make the statement correct. </p><br><p>Select \"No change is needed\" if the underlined text makes the statement correct.</p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>No change is needed.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Spoofed mail</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Malware</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Spam</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Advance audit policies applied by a Group Policy are compatible with a basic audit policy.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You can configure an email event notification for an audited activity.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>User Account Control (UAC) cannot be disabled.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>What are two attributes that an email message may contain that should cause a user to question whether the message is a phishing attempt? </strong><strong><span style=\"text-decoration:underline;\">(Choose two.)</span></strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Use of bold and italics</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Spelling and grammar errors</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>An image contained in the message</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Threats of losing service</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which two security settings can be controlled by using group policy? </strong><strong><span style=\"text-decoration:underline;\">(Choose two.)</span></strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Encrypted access from a smart phone</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Automatic file locking</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Password complexity</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Access to the Run... command</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You are preparing a local audit policy for your workstation. No auditing is enabled. The settings of your policy are shown in the following image:</strong></p>\n<br>\n<p><a href=\"https://umindanao.blackboard.com/bbcswebdav/pid-2340778-dt-asiobject-rid-73122024_1/xid-73122024_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;its_19.png&quot;,&quot;displayName&quot;:&quot;its_19.png&quot;,&quot;fileName&quot;:&quot;its_19.png&quot;,&quot;fileSize&quot;:452257,&quot;mimeType&quot;:&quot;image/png&quot;,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;resourceUrl&quot;:&quot;https://umindanao.blackboard.com/sessions/95/9531A40B280E4C1175491F971B20A594/ca224d059fd146c48f00a5f2de751b0b/its_19.png&quot;,&quot;linkName&quot;:&quot;its_19.png&quot;}\">its_19.png</a></p>\n<p><strong>You need to log in each time someone reboots the workstation. The _________________</strong></p>\n<p><strong>policy will log a reboot of the computer.</strong></p>",
+    "image_file_name": "2-78.png",
+    "answers": [
+      {
+        "rawText": "<p>Audit Object Access</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Audit logon events</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Audit account logon events</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>There are several built-in basic audit policies and advanced audit policies in Windows.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which is the minimum requirement to create BitLocker-To-Go media on a client computer?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Windows 7 Enterprise Edition</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Windows 2000 Professional Service Pack 4</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>Windows Vista Enterprise Edition</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>Windows XP Professional Service Pack 3</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You want to make your computer resistant to online hackers and malicious software.</strong></p><p><strong>What should you do?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>Configure a forward proxy.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Turn on Windows Firewall.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Install anti-virus software.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Enable spam filtering.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Keeping a server updated:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Fixes security holes</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Speeds up folder access</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Synchronizes the server</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Maximizes network efficiency</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Many Internet sites that you visit require a user name and password.</strong></p><p><strong>How do you secure these passwords?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Save them to an encrypted file</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Save them to a text file</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Reuse the same password</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Configure the browser to save passwords</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Enable session caching</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You suspect a user's computer is infected by a virus.</strong></p><p><strong>What should you do first?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>Restart the computer in safe mode</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>Install antivirus software on the computer</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Disconnect the computer from the network</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>Replace the computer's hard disk drive</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>The primary method of authentication in an SSL connection is </strong><strong><span style=\"text-decoration:underline;\">passwords</span></strong><strong>. </strong></p><br><p><strong>To answer, choose the option \"No change is needed\" if the underlined text is correct. If the underlined text is not correct, choose the correct answer.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>No change is needed</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Certificates</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Biometrics</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>IPsec</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Account lockout policies are used to prevent which type of security attack?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Brute force attacks</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>Users sharing passwords</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Social engineering</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Passwords being reused immediately</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>The purpose of Microsoft Baseline Security Analyzer is to:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>Apply all current patches to a server.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Set permissions to a default level.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>List system vulnerabilities.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Correct a company's security state.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Domain Name System Security Extensions (DNSSEC) Prevents spoofing of query responses.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>A digitally signed e-mail message:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Validates the recipient</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Validates the sender</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Is encrypted</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Is virus-free</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>The certificate of a secure public web server on the Internet should be:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Issued by an enterprise certificate authority (CA)</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>&nbsp;Issued by a public certificate authority (CA)</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Signed by using a 4096-bit key</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>Signed by using a 1024-bit key</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p>Alice sends her password to the game server in plaintext. Chuck is able to observe her</p>\n<p>password as shown in the following image:</p>\n<br>\n<br>\n<p><a href=\"https://umindanao.blackboard.com/bbcswebdav/pid-2340753-dt-asiobject-rid-73122009_1/xid-73122009_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;its_9.png&quot;,&quot;displayName&quot;:&quot;its_9.png&quot;,&quot;fileName&quot;:&quot;its_9.png&quot;,&quot;fileSize&quot;:56593,&quot;mimeType&quot;:&quot;image/png&quot;,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;resourceUrl&quot;:&quot;https://umindanao.blackboard.com/sessions/95/9531A40B280E4C1175491F971B20A594/3bdd62e469ee4ef6bd7bbca519257d7f/its_9.png&quot;,&quot;linkName&quot;:&quot;its_9.png&quot;}\">its_9.png</a></p>\n<p>Use the drop-down menu to select the answer choice that completes each statement.</p>\n<p>Each correct selection is worth one point.</p>\n<br>\n<p><strong>Alice should _______________________ to avoid this type of attack.</strong></p>",
+    "image_file_name": "2-91.png",
+    "answers": [
+      {
+        "rawText": "<p>only send passwords in plaintext over the local network</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>only send passwords in plaintext to well-known companies</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>never send a plaintext password</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p>Coho Winery wants to increase their web presence and hires you to set up a new web</p><p>server. Coho already has servers for their business and would like to avoid purchasing a new one. Which server is best to use as a web server, considering the security and performance concerns?</p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Application Server</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Domain Controller</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>File Server</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>SQL Server</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You are preparing an audit policy for the workstations at Contoso, Ltd. Currently, no advanced auditing is enabled. These workstations are not members of the domain. </strong></p>\n<p><strong>The settings of your Advanced Audit Policy Configuration are shown in the following image:</strong></p>\n<br>\n<br>\n<p><a href=\"https://umindanao.blackboard.com/bbcswebdav/pid-2340803-dt-asiobject-rid-73122038_1/xid-73122038_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;its_21.png&quot;,&quot;displayName&quot;:&quot;its_21.png&quot;,&quot;fileName&quot;:&quot;its_21.png&quot;,&quot;fileSize&quot;:480010,&quot;mimeType&quot;:&quot;image/png&quot;,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;resourceUrl&quot;:&quot;https://umindanao.blackboard.com/sessions/0F/0FE7AA84F6548938D52E516892B70CD8/36a11dd9b2e64c049e22d982f0339e87/its_21.png&quot;,&quot;linkName&quot;:&quot;its_21.png&quot;}\">its_21.png</a></p>\n<p><strong>You need to know when someone accesses files in the C:\\temp directory. Auditing is turned on for this directory. You need to enable _____________________ Advanced Audit Policy to log these events.</strong></p>",
+    "image_file_name": "2-93.png",
+    "answers": [
+      {
+        "rawText": "<p>System</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Privilege Use</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Object Access</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which two characteristics should you recommend for a user's domain password? </strong><strong><span style=\"text-decoration:underline;\">(Choose two.)</span></strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Includes Unicode characters</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Hard to guess</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Easy to increment</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Easy to remember</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Audit logs have a size limit and cannot be adjusted.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+
+  {
+    "questionText": "<p><strong>Which enables access to all of the logged-in user's capabilities on a computer?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Active Server Pages (ASP)</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Microsoft Silverlight</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>ActiveX controls</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Java applets</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>FAT32 has built-in security features that control user access.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>NFTS has built-in security features that control file access.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You are trying to establish communications between a client's computer and a server. The server is not responding. You confirm that both the client and the server have network connectivity. Which should you check next?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Data Execution Prevention</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Windows Firewall</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>Active Directory Domains and Trusts</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Microsoft Update</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You have two servers that run Windows Server. All drives on both servers are formatted by using NTFS. You move a file from one server to the other server. The file's permissions in the new location will:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Restrict access to the Administrators group</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Inherit the destination folder's permissions</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Enable full access to the everyone group</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Retain the original folder's permissions</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Smart cards can be used in biometrics-based systems.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong><span style=\"text-decoration:underline;\">Dumpster diving</span></strong><strong> refers to a physical threat that a hacker might use to look for information about a computer network. Select the correct answer if the underlined text does not make the statement correct. </strong></p><p><strong>Select \"No change is needed\" if the underlined text makes the statement correct.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Malware</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>No change is needed</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Reverse Social engineering</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Phishing</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Your company requires that users type a series of characters to access the wireless network. The series of characters must meet the following requirements:</strong></p><p>✑ Contains more than 15 characters</p><p>✑ Contains at least one letter</p><p>✑ Contains at least one number</p><p>✑ Contains at least one symbol</p><p><strong>Which security technology meets these requirements?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>WPA2 PSK</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>WPA2 Enterprise</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>WEP</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>MAC filtering</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Smart cards provide a means to securely store data on the card.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>What are three examples of two-factor authentication?</strong><strong><span style=\"text-decoration:underline;\"> (Choose three.)</span></strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>A password and a pin number</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>A password and a smart card</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>A fingerprint and a pattern</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>A username and a password</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>A pin number and a debit card</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which provides the highest level of security in a firewall?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Inbound packet filters</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Outbound packet filters</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Stateful inspection</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Stateless inspection</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Passwords that contain recognizable words are vulnerable to a:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Denial of Service attack</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Replay attack</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Hashing attack</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Dictionary attack</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Administrator passwords may contain ASCII characters generated by a combination of the ALT key three digits on the numeric keypad.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Shredding documents helps prevent:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Remote code execution</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Social networking</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>File corruption</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Man-in-the-middle attacks</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Social engineering</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Your supervisor asks you to review file permission settings on the application.bat file. You need to report which file system the file is on and the type of permission the file has. You review the application Properties dialog box shown in the following image:</strong></p>\n<br>\n<br>\n<p><a href=\"https://umindanao.blackboard.com/bbcswebdav/pid-2340892-dt-asiobject-rid-73122050_1/xid-73122050_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;its_29.png&quot;,&quot;displayName&quot;:&quot;its_29.png&quot;,&quot;fileName&quot;:&quot;its_29.png&quot;,&quot;fileSize&quot;:140724,&quot;mimeType&quot;:&quot;image/png&quot;,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;resourceUrl&quot;:&quot;https://umindanao.blackboard.com/sessions/36/36EDA4A999F39B0A50EFC67FB4E30196/188e7f64132a4f64a1820a47292a1f91/its_29.png&quot;,&quot;linkName&quot;:&quot;its_29.png&quot;}\">its_29.png</a></p>\n<p>The<strong> \"cygwin.bat\" </strong>file in the image is currently on the _______________ file system.</p>",
+    "image_file_name": "2-1-15.png",
+    "answers": [
+      {
+        "rawText": "<p>FAT32</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>NTFS</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>FAT16</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>An example of a biometric device is a fingerprint scanner.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>The removal of unused registry entries and executables increases the surface vulnerability of the server. </strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>What is the primary advantage of using Active Directory Integrated Zones?</strong></p><br>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Password protection</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Zone encryption</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Secure replication</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Non-repudiation</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Biometrics are used to authenticate users.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You are an intern at Litware, Inc. Your manager asks you to make password guess attempts harder by limiting login attempts on company computers.</strong></p><p><strong>What should you do?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Enforce password sniffing.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Enforce password history.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Make password complexity requirements higher.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Implement account lockout policy.</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>An attorney hires you to increase the wireless network security for the law firm's office. The office has a very basic network, with just a modem and a router.</strong></p><p><strong>Which of these security modes offers the highest security?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>WEP</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>WPA-Personal</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>WPA2-Personal</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>WPA-Enterprise</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>How does the sender policy framework (SPF) aim to reduce spoofed emails?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>It provides a list of IP address ranges for particular domains so senders can be verified.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>It provides an encryption key so that authenticity of an email message can be validated</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>It includes an XML policy file with each email that confirms the validity of the message.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>It lists servers that may legitimately forward mail for a particular domain.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>The purpose of User Account Control (UAC) is to:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Secure your data from corruption</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Limit the privileges of software</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Facilitate Internet filtering</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Encrypt the user's account</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You need to limit the programs that can run on client computers to a specific list. Which technology should you implement?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>AppLocker group policies</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Windows Security Center</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>System Configuration Utility</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Security Accounts Manager</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Windows Firewall is a built-in. host-based, </strong><strong><span style=\"text-decoration:underline;\">stateless </span></strong><strong>firewall.</strong></p><p><strong>Select the correct answer if the underlined text does not make the statement correct. Select \"No change is needed\" if the underlined text makes the statement correct.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Network layer</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>No changes is needed</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>&nbsp;Stateful</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Packet filter</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>All users on the same FAT32 file system have access rights to all files.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You are setting up Remote Desktop on your computer. Your computer is a member of a domain. Your firewall configuration is shown in the following image:</strong></p>\n<br>\n<br>\n<p><a href=\"https://umindanao.blackboard.com/bbcswebdav/pid-2340860-dt-asiobject-rid-73122045_1/xid-73122045_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;its_28.png&quot;,&quot;displayName&quot;:&quot;its_28.png&quot;,&quot;fileName&quot;:&quot;its_28.png&quot;,&quot;fileSize&quot;:585588,&quot;mimeType&quot;:&quot;image/png&quot;,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;resourceUrl&quot;:&quot;https://umindanao.blackboard.com/sessions/36/36EDA4A999F39B0A50EFC67FB4E30196/6d8ae0d9ca6946349d0410aab2e6da32/its_28.png&quot;,&quot;linkName&quot;:&quot;its_28.png&quot;}\">its_28.png</a></p>\n<p>You need to allow Remote Desktop to be able to get through your firewall for users on your company's network. </p>\n<p><strong>Which settings should you enable?</strong></p>",
+    "image_file_name": "2-1-27.png",
+    "answers": [
+      {
+        "rawText": "<p>Remote Desktop: Public</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Remote Assistance: Home/Work (Private)</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Remote Desktop: Home/Work (Private)</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Remote Assistance: Domain</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You would implement a wireless intrusion prevention system to:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Prevent rogue wireless access points</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Detect wireless packet theft</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Enforce SSID broadcasting</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Prevent wireless interference</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>What does implementing Windows Server Update Services (WSUS) allow a company to manage?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Windows updates for workstations and servers</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Shared private encryption key updates</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Active Directory server replication</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>Updates to Group Policy Objects</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>A honey pot is an appliance or piece of software that allows or denies network access based on a preconfigured set of rules.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>All computers that are not in compliance with NAP policies require manual intervention to be brought into compliance.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You are an intern at Wide World Importers and help manage 1000 workstations. All the workstations are members of an Active Domain. You need to push out an internal certificate to Internet Explorer on all workstations. What is the quickest method to do this?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Local policy</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Windows Update</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Logon script</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Group policy</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Honey pots are primarily used to attract potential attackers or hackers.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Alice and Bob are exchanging messages with each other. Chuck modifies the messages</strong></p>\n<p><strong>sent between Alice and Bob as shown in the following image:</strong></p>\n<br>\n<br>\n<p><a href=\"https://umindanao.blackboard.com/bbcswebdav/pid-2340902-dt-asiobject-rid-73122064_1/xid-73122064_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;its_31.png&quot;,&quot;displayName&quot;:&quot;its_31.png&quot;,&quot;fileName&quot;:&quot;its_31.png&quot;,&quot;fileSize&quot;:93078,&quot;mimeType&quot;:&quot;image/png&quot;,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;resourceUrl&quot;:&quot;https://umindanao.blackboard.com/sessions/36/36EDA4A999F39B0A50EFC67FB4E30196/3ebe2eda283c4d95b2ed4b41057a82b3/its_31.png&quot;,&quot;linkName&quot;:&quot;its_31.png&quot;}\">its_31.png</a><strong>Alice and Bob could add a _____________________________ to avoid this type of attack.</strong></p>",
+    "image_file_name": "2-1-34.png",
+    "answers": [
+      {
+        "rawText": "<p>Digital Signature</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Check sum</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Timestamp</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>The manager of a coffee shop hires you to securely set up WiFi in the shop. To keep computer users from seeing each other, what should you use with an access point?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Client isolation mode</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>MAC address filtering</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Client bridge mode</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Client mode</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Humongous Insurance is an online healthcare insurance company. During an annual security audit a security firm tests the strength of the company's password policy and suggests that Humongous Insurance implement password history policy. What is the likely reason that the security firm suggests this?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Previous password breaches involved use of past passwords.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Past passwords were easily cracked by the brute force method.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Past passwords lacked complexity and special characters.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Past passwords of users contained dictionary words.</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which password attack uses all possible alpha numeric combinations?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Social engineering</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Brute force attack</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Dictionary attack</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Rainbow table attack</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p>By setting up a honey pot, an administrator can get insightful information about the attacker, such as the IP address.</p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You are trying to connect to an FTP server on the Internet from a computer in a school lab. You cannot get a connection. You try on another computer with the same results. The computers in the lab are able to browse the Internet.</strong></p><p><strong>You are able to connect to this FTP server from home. What could be blocking the connection to the server?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>A wireless access point</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>A layer-2 hub</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>A layer-2 switch</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>A firewall</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You are an intern for a company where your manager wants to be sure you understand the social engineering threats that may occur. Your manager emphasizes the principles of the Microsoft Defense-in-Depth Security Model shown in the following image:</strong></p>\n<br>\n<br>\n<p><a href=\"https://umindanao.blackboard.com/bbcswebdav/pid-2340896-dt-asiobject-rid-73122057_1/xid-73122057_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;its_30.png&quot;,&quot;displayName&quot;:&quot;its_30.png&quot;,&quot;fileName&quot;:&quot;its_30.png&quot;,&quot;fileSize&quot;:229480,&quot;mimeType&quot;:&quot;image/png&quot;,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;resourceUrl&quot;:&quot;https://umindanao.blackboard.com/sessions/36/36EDA4A999F39B0A50EFC67FB4E30196/4e9d439001464948a52cd40c088791f6/its_30.png&quot;,&quot;linkName&quot;:&quot;its_30.png&quot;}\">its_30.png</a></p>\n<p><strong>The ____________________ defense targets staff within an organization, explaining what to do, when, why, and by whom.</strong></p>",
+    "image_file_name": "2-1-40.png",
+    "answers": [
+      {
+        "rawText": "<p>Data Defenses</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Physical Security</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Policies, Procedures, and Awareness</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Creating MD5 hash for files is an example of ensuring what?</strong></p><br>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Least privilege</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Confidentiality</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Availability</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Integrity</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>The client computers on your network are stable and do not need any new features. Which is a benefit of applying operating system updates to these clients?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Keep the software licensed</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Keep the server ports available</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Close existing vulnerabilities</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Update the hardware firewall</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Your supervisor asks you to review file permission settings on the application.bat file. You need to report which file system the file is on and the type of permission the file has. You review the application Properties dialog box shown in the following image:</strong></p>\n<br>\n<br>\n<p><a href=\"https://umindanao.blackboard.com/bbcswebdav/pid-2340893-dt-asiobject-rid-73122050_1/xid-73122050_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;its_29.png&quot;,&quot;displayName&quot;:&quot;its_29.png&quot;,&quot;fileName&quot;:&quot;its_29.png&quot;,&quot;fileSize&quot;:140724,&quot;mimeType&quot;:&quot;image/png&quot;,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;resourceUrl&quot;:&quot;https://umindanao.blackboard.com/sessions/36/36EDA4A999F39B0A50EFC67FB4E30196/188e7f64132a4f64a1820a47292a1f91/its_29.png&quot;,&quot;linkName&quot;:&quot;its_29.png&quot;}\">its_29.png</a></p>\n<p>_______________ permission are currently being displayed for the<strong> \"cygwin.bat\" file.</strong></p>",
+    "image_file_name": "2-1-43.png",
+    "answers": [
+      {
+        "rawText": "<p>Advanced</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Basic</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Full Control</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Smart cards can read distances of several inches to many yards.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>What is the standard or basic collection of NTFS permissions?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Read attributes, list folder/read data, traverse folder/execute file</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Read and execute, read, write, full control, modify, list folder contents</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Change permissions, read permissions, write permissions</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Create files/write data, create folders/append data, take ownership</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You sign up for an online bank account. Every 6 months, the bank requires you to change your password. You have changed your </strong><strong><span style=\"text-decoration:underline;\">password 5 times in the past</span></strong><strong>. Instead of coming up with a new password, you decide to use one of your past passwords, but the bank's password history prevents you on doing so. </strong></p><br><p><strong>Select the correct answer if the underlined text does not make the statement correct Select</strong></p><p><strong>\"No change is needed\" if the underlined text makes the statement correct.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Minimum password age</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Maximum password duration</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Password complexity</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>No change is needed.</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Which of the following describes a VLAN?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>It allows different network protocols to communicate between different network segments.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>It connects to multiple networks and routes data packets.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>It is a subnetwork that reveals a company's externally facing resources to the public network.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>It is a logical broadcast domain across physical subnets.</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Biometrics data is usually encrypted when it is gathered.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You have a Windows 7 desktop computer, and you create a Standard User account for your roommate so that he can use the desktop from time to time. Your roommate has forgotten his password. What two actions can you take to reset your password? </strong><strong><span style=\"text-decoration:underline;\">(Choose two.)</span></strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Boot into Safe Mode using your roommate's account.</p><br>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Use your administrator account.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>From your roommate's account press CTRL+ALT+DELETE, and then click Change a password.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Use your password reset disk.</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>What three elements does HTTPS encrypt?</strong><strong><span style=\"text-decoration:underline;\"> (Choose three.)</span></strong></p><p><span style=\"font-family: Times New Roman;\"><strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong></span></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Website URL</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Port numbers</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Server IP address</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Browser cookies</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Login information</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Intruder can find a wireless network if the Service Set Identifies (SSID) is hidden.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>YES </p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Tools like Microsoft Security Compliance Manager and Microsoft Baseline Security Analyzer can assist with server hardening.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You create a new file in a folder that has inheritance enabled.</strong></p><p><strong>By default, the new file:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Takes the permissions of other files in the same directory</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Takes the permissions of other folders in the same directory</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Does not take any permissions</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Takes the permissions of the parent folder</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You need to grant a set of users write access to a file on a network share. You should add the users to:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>A security group</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>The Everyone group</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>The Authenticated Users group</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>A distribution group</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Where should you lock up the backup tapes for your servers?</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>The tape library</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>A filing cabinet</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>An offsite fire safe</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>The server room</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>E-mail spoofing:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Forwards e-mail messages to all contacts</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Copies e-mail messages sent from a specific user</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Obscures the true e-mail sender</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Modifies e-mail routing logs</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>WEP security is strong as long as it has a 128-bit key.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>A brute force attack:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Tries all possible password variations</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Uses the strongest possible algorithms</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Targets all the ports</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Uses response filtering</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>NAP can enforce that client computers are running a firewall.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>By using NAP, administrators can place non-compliant computers onto restricted networks.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>An intruder can spoof the MAC address to get around the MAC address filtering.</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>YES</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>NO</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>The primary purpose of Network Access Protection (NAP) is to prevent:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Unauthorized users from accessing a network.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p><span style=\"font-family: Times New Roman;\">&nbsp;&nbsp;&nbsp;</span>Non-compliant systems from connecting to a network.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Loss of data from client computers on a network.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Users on a network from installing software.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Alice and Bob are exchanging messages with each other. Chuck modifies the messages</strong></p>\n<p><strong>sent between Alice and Bob as shown in the following image:</strong></p>\n<br>\n<br>\n<p><a href=\"https://umindanao.blackboard.com/bbcswebdav/pid-2340901-dt-asiobject-rid-73122064_1/xid-73122064_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;its_31.png&quot;,&quot;displayName&quot;:&quot;its_31.png&quot;,&quot;fileName&quot;:&quot;its_31.png&quot;,&quot;fileSize&quot;:93078,&quot;mimeType&quot;:&quot;image/png&quot;,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;resourceUrl&quot;:&quot;https://umindanao.blackboard.com/sessions/36/36EDA4A999F39B0A50EFC67FB4E30196/3ebe2eda283c4d95b2ed4b41057a82b3/its_31.png&quot;,&quot;linkName&quot;:&quot;its_31.png&quot;}\">its_31.png</a></p>\n<p><strong>The scenario demonstrated is ____________________________ attack.</strong></p>",
+    "image_file_name": "2-1-63.png",
+    "answers": [
+      {
+        "rawText": "<p>denial of service</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Man in the middle</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>phishing</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>Physically securing servers prevents:</strong></p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Denial of Service attacks</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Man-in-the middle attacks</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Compromise of the certificate chain</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Theft</p>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p><strong>You are an intern for a company where your manager wants to be sure you understand the social engineering threats that may occur. Your manager emphasizes the principles of the Microsoft Defense-in-Depth Security Model shown in the following image:</strong></p>\n<br>\n<br>\n<p><a href=\"https://umindanao.blackboard.com/bbcswebdav/pid-2340897-dt-asiobject-rid-73122057_1/xid-73122057_1\" data-bbtype=\"attachment\" data-bbfile=\"{&quot;alternativeText&quot;:&quot;its_30.png&quot;,&quot;displayName&quot;:&quot;its_30.png&quot;,&quot;fileName&quot;:&quot;its_30.png&quot;,&quot;fileSize&quot;:229480,&quot;mimeType&quot;:&quot;image/png&quot;,&quot;render&quot;:&quot;inlineOnly&quot;,&quot;resourceUrl&quot;:&quot;https://umindanao.blackboard.com/sessions/36/36EDA4A999F39B0A50EFC67FB4E30196/4e9d439001464948a52cd40c088791f6/its_30.png&quot;,&quot;linkName&quot;:&quot;its_30.png&quot;}\">its_30.png</a></p>\n<p><strong>The overarching defense of Microsoft Defense-in-Depth Security Model is _____________.</strong></p>",
+    "image_file_name": "2-1-65.png",
+    "answers": [
+      {
+        "rawText": "<p>Network Defenses.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Data Defenses</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Policies, Procedures, and Awareness</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+
+  {
+    "questionText": "<p>To protect users from malicious browser pop-ups, you should set a default browser configuration that blocks untrusted pop-ups.</p>",
+    "image_file_name": null,
+    "answers": []
+  },
+  {
+    "questionText": "<div>\n )You have an application that uses IPsec to secure communications between an internet client and a server on the internal network. To which network security service must the IPsec client connect?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n SSH\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n VPN\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n SFTP\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n RADIUS\n</div>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<div>\n What is an example of physical security for a laptop?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n Fingerprint reader\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Cable lock\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n External USB drive\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Docking station\n</div>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<div>\n )You are responsible for ensuring that your network computers remain virus and malware free. Choose 2 answer. Which two strategies will help keep your devices free from viruses and malware?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n Keep antivirus and anti-malware software definitions up to date.\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n Ensure that Real-time Protection is disabled.\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Ensure that the Windows Firewall is disabled so it doesn't interfere with any anti-malware software scans.\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Ensure that all network ports are available so all important network traffic can get through.\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Configure full antivirus and anti-malware scans to run automatically on a regular schedule.\n</div>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<div>\n Which class of IP address is used for multicast?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n Class B\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Class A\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Class D\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n Class C\n</div>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p><span style=\"color: #ee0000\"> </span>Scenario</p><p>You work on a team responsible for planning a backup strategy for a file server. Approximately 25% of the files on the server are modified each day. The team has proposed three different backup strategies</p><p>Backup Strategies</p><ol><li>Strategy 1&nbsp;Full backup every night</li><li>Strategy 2&nbsp;Full backup Sunday night and incremental backup Monday through Saturday night</li><li>Strategy 3&nbsp;Full backup Sunday night and differential backup Monday through Saturday night</li></ol><br><p>Which is the correct sequence for the backup strategies?</p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>Strategy 1,3,2</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>Strategy 1,2,3</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Strategy 2,1,3</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>Strategy 3,2,1</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<div>\n What is a user probably receiving if they get a large number of emails selling prescription medicine?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n Spoofed mail\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Malware\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Pharming mail\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Spam\n</div>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<div>\n What is the primary purpose of a subnet mask in IP networking?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n To divide an IP address into network and host portions\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n To route traffic between networks\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n To assign MAC addresses\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n To encrypt data packets\n</div>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<div>\n )You create a web server for your school. When users visit your site, they get a certificate error that says your site is not trusted. What should you do to fix this problem?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n Generate a certificate request\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Use a digital signature\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Enable Public Keys on your website\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Install a certificate from a trusted Certificate Authority (CA)\n</div>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p>You can view audit logs in the Event Viewer.</p><br>",
+    "image_file_name": null,
+    "answers": []
+  },
+  {
+    "questionText": "<div>\n Which two vulnerabilities is a wireless network client exposed to? (Choose 2)\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n File corruption\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Buffer overflow\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Rogue access points\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n Eavesdropping\n</div>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<div>\n What is the default subnet mask for a Class C IP address?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n 255.255.255.255\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n 255.0.0.0\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n 255.255.255.0\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n 255.255.0.0\n</div>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<div>\n Why should you implement a wireless intrusion prevention system?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n To detect wireless packet theft\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n To prevent wireless interference\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n To prevent rogue wireless access points\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n To enforce SSID broadcasting\n</div>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<div>\n How should the certificate of a secure public web server on the internet be signed?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n By using a 4096-bit key\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n By an enterprise certificate authority (CA)\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n By a public certificate authority (CA)\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n By using a 1024-bit key\n</div>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<div>\n What protocol is used to assign IP addresses dynamically to devices on a network?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n FTP\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n DNS\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n HTTP\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n DHCP\n</div>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<div>\n Which of the following is a valid IPv4 address?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n 20010db885a3000000008a2e03707334\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n 10.0.0.256\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n 172.16.254.1\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n 192.168.300.1\n</div>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p>Protecting users from untrusted pop-up applications is mostly a function of awareness.</p>",
+    "image_file_name": null,
+    "answers": []
+  },
+  {
+    "questionText": "<p>System administrators should use a standard user account when performing routine functions like reading emails and browsing the internet.</p><br><br>",
+    "image_file_name": null,
+    "answers": []
+  },
+  {
+    "questionText": "<div>\n What are three examples of two-factor authentication? (Choose 3)\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n A fingerprint and a pattern\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n A username and a password\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n A PIN number and a debit card\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n A password and a PIN number\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n A password and a smart card\n</div>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<div>\n What are two benefits to using an incremental backup solution instead of a differential backup solution? (Choose 2)\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n Less time needed to back up data\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n Less administrative effort\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Less storage space required\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n Less time needed to recover data\n</div>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<div>\n )You have two servers that run Windows Server. All the server drives have been formatted by using NTFS. You move a file from one server to the other server. What permissions does the file have in the new location?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n The file inherits the destination folder's permissions\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n Access will be limited to members of the Administrators group\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n The file retains the original folder's permissions\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Members of the Everyone group will have full access to the file\n</div>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p>Audit logs have a set size limit and cannot be adjusted.</p>",
+    "image_file_name": null,
+    "answers": []
+  },
+  {
+    "questionText": "<div>\n What should you use to protect systems from buffer overflow errors?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n An Intruder Prevention System\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n A proxy server\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Data Execution Prevention\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n Antivirus software\n</div>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<div>\n Which link is a valid secure link to the CompanyPro account management site?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n http//VPN.VisitMe/logon.html\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n http//secure.companypro/SecureSignIn\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n http//VPN.VisitMe/SecureSignIn/\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n https//companypro/SecureSignIn/\n</div>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p>Scenario</p><p>You are a junior network administrator for CompanyPro. You have an off-domain computer that you suspect is infected with malware. After running anti-malware software, you are unsure whether the infection has been completely removed.</p><p>You need to ensure that the computer is completely safe and the user files are available.</p><p>&nbsp;</p><p>&nbsp;</p><p>In which sequence should you complete the actions?</p>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<p>-Back up the entire system.</p><p>-Restore the user data from the backup image.</p><p>-Update everything, including the OS, applications, and anti-virus/anti-malware tools.</p><p>-Reinstall the OS and applications from the original media.</p><p>-Reformat the disk.</p>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>-Reinstall the OS and applications from the original media.</p><p>-Back up the entire system.</p><p>-Restore the user data from the backup image.</p><p>-Update everything, including the OS, applications, and anti-virus/anti-malware tools.</p><p>-Reformat the disk.</p><br>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<p>-Back up the entire system.</p><p>-Reformat the disk.</p><p>-Reinstall the OS and applications from the original media.</p><p>-Update everything, including the OS, applications, and anti-virus/anti-malware tools.</p><p>-Restore the user data from the backup image.</p>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<p>-Update everything, including the OS, applications, and anti-virus/anti-malware tools.</p><p>-Reinstall the OS and applications from the original media.</p><p>-Reformat the disk.</p><p>-Back up the entire system.</p><p>-Restore the user data from the backup image.</p>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<div>\n )Your anti-spam program is blocking emails from a particular sender. Your company needs to receive emails from this sender. What should you do?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n List the sender's email address in DNS\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Reconfigure the SMS Gateway\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Add the email address to the whitelist\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n Accept RSS feeds from their domain\n</div>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p>You can configure an event notification for an audited activity.</p>",
+    "image_file_name": null,
+    "answers": []
+  },
+  {
+    "questionText": "<div>\n Which technology examines packet header information to determine whether network traffic is allowed to enter the internal network?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n BitLocker To Go\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Antivirus software\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Dedicated firewall\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n RADIUS server\n</div>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<div>\n What is the first step when conducting a physical security audit?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n Set up the system logs to audit security events\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Inventory the company's technology assets\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n Install auditing software on your servers\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Set up a virus quarantine area\n</div>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p>For each statement, select True or False.</p><ol><li>One purpose of User Account Control (UAC) is to grant users the lowest level permissions required to complete their tasks.</li></ol><br>",
+    "image_file_name": null,
+    "answers": []
+  },
+  {
+    "questionText": "<div>\n )You are an intern for a company. Your manager wants to be sure that you understand the types of social engineering threats that might occur. Which type of threat mitigation educates the staff within an organization, explaining what to do, when, why, and by whom?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n Acceptable Use Policy\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Policies, Procedures, and Awareness\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n Physical Security\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Defense in Depth\n</div>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<div>\n How does role separation improve server security?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n By installing applications on separate hard disks.\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n By enforcing the principle of least privilege.\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n By physically separating high-security servers from other servers.\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n By placing servers on separate VLANs.\n</div>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<div>\n )You are the junior network administrator at your company. You learn that several employees within your organization have downloaded and installed a browser extension that will translate text from one language to another. What should you do?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n Disable the browser extension and implement controls to allow only corporate-approved browser extensions\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n Remove the browser extension because it will perform malicious activities\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Make sure the browser extension is set to read-only mode, so it cannot overwrite critical information\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Nothing, browser extensions pose no harm to the machine or the user\n</div>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<div>\n Which technology examines packet header information to determine whether network traffic is allowed to enter the internal network?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n RADIUS server\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Dedicated firewall\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n BitLocker To Go\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Antivirus software\n</div>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<div>\n Which networking protocol provides centralized authentication, authorization, and accounting?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n HTTPS\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n RADIUS\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n OpenID\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n SMTP\n</div>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<div>\n How does role separation improve server security?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n By enforcing the principle of least privilege.\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n By physically separating high-security servers from other servers.\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n By placing servers on separate VLANs.\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n By installing applications on separate hard disks.\n</div>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<p>For each statement, select True or False.</p><br><ol><li>Because senior executives have rights to access sensitive data, they should use administrator accounts.</li></ol><br>",
+    "image_file_name": null,
+    "answers": []
+  },
+  {
+    "questionText": "<div>\n Which protocol is responsible for resolving domain names to IP addresses?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n ICMP\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n TCP\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n DNS\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n DHCP\n</div>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<div>\n What can intercept passwords that are transmitted in clear text?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n A packet sniffer\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n A rogue DHCP server\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n An IPsec decoder\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n A Kerberos client\n</div>",
+        "correctAnswer": false
+      }
+    ]
+  },
+  {
+    "questionText": "<div>\n )You are a network administrator. All computers run the Chrome browser. You need to prevent third-party cookies from being saved. What should you enforce?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n SmartScreen Filter\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Antivirus protection\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Cross-Site Scripting Filter\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Incognito\n</div>",
+        "correctAnswer": true
+      }
+    ]
+  },
+  {
+    "questionText": "<p>Pop-ups can display a realistic operating system or application error message.</p>",
+    "image_file_name": null,
+    "answers": []
+  },
+  {
+    "questionText": "<div>\n )You are an intern at Sunset Web. You help manage 1000 workstations. All the workstations are members of an Active Directory Domain. You need to push an application security patch to all workstations. What is the quickest method to do this?\n</div>",
+    "image_file_name": null,
+    "answers": [
+      {
+        "rawText": "<div>\n Local security policy\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Logon script\n</div>",
+        "correctAnswer": false
+      },
+      {
+        "rawText": "<div>\n Group policy\n</div>",
+        "correctAnswer": true
+      },
+      {
+        "rawText": "<div>\n Windows Update\n</div>",
+        "correctAnswer": false
+      }
+    ]
+  }
+]
