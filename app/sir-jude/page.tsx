@@ -379,23 +379,30 @@ function QuizScreen({ questions, onFinish }: QuizScreenProps) {
               );
             })}
 
-            {confirmed && (
-              <Card
-                size="sm"
-                className={cn(
-                  "border px-1 mt-4",
-                  answers[answers.length - 1].isCorrect
-                    ? "border-emerald-500/40 bg-emerald-500/10"
-                    : "border-destructive/40 bg-destructive/10",
-                )}
-              >
-                <CardContent className="text-sm py-3">
-                  {answers[answers.length - 1].isCorrect
-                    ? "Correct! You selected all the right answers."
-                    : "Incorrect. You missed some correct answers or selected incorrect ones."}
-                </CardContent>
-              </Card>
-            )}
+            {confirmed &&
+              (() => {
+                const currentAnswer = answers.find(
+                  (a) => a.questionIndex === current,
+                );
+                if (!currentAnswer) return null;
+                return (
+                  <Card
+                    size="sm"
+                    className={cn(
+                      "border px-1 mt-4",
+                      currentAnswer.isCorrect
+                        ? "border-emerald-500/40 bg-emerald-500/10"
+                        : "border-destructive/40 bg-destructive/10",
+                    )}
+                  >
+                    <CardContent className="text-sm py-3">
+                      {currentAnswer.isCorrect
+                        ? "Correct! You selected all the right answers."
+                        : "Incorrect. You missed some correct answers or selected incorrect ones."}
+                    </CardContent>
+                  </Card>
+                );
+              })()}
 
             <Separator className="my-4" />
 
