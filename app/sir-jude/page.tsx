@@ -129,6 +129,10 @@ function StartScreen({ onStart }: StartScreenProps) {
               <Link href="/">Back to Main Reviewer</Link>
             </Button>
 
+            <Button variant="secondary" size="lg" className="w-full" asChild>
+              <Link href="/sir-jude/answers">View Answer Key</Link>
+            </Button>
+
             <p className="text-center text-xs text-muted-foreground mt-2">
               {TOTAL} questions drawn from {QUESTIONS.length} items
             </p>

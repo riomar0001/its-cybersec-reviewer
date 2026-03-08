@@ -47,7 +47,7 @@ type ResultScreenProps = {
 };
 
 // ── QUESTIONS CONSTANT ──────────────────────────────────────────────────────
-const QUESTIONS: Question[] = [
+export const QUESTIONS: Question[] = [
   {
     id: 1,
     question: "What is a common method to ensure Availability of systems?",
@@ -2618,6 +2618,15 @@ function StartScreen({ onStart }: StartScreenProps) {
               asChild
             >
               <Link href="/sir-jude">Sir Jude&apos;s Version</Link>
+            </Button>
+
+            <Button
+              variant="secondary"
+              size="lg"
+              className="w-full text-sm tracking-wide mt-2"
+              asChild
+            >
+              <Link href="/answers">View Answer Key</Link>
             </Button>
 
             <p className="text-center text-xs text-muted-foreground">

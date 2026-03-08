@@ -4262,7 +4262,7 @@
     "answers": []
   },
   {
-    "questionText": "<div>\n )You have an application that uses IPsec to secure communications between an internet client and a server on the internal network. To which network security service must the IPsec client connect?\n</div>",
+    "questionText": "<div>\n You have an application that uses IPsec to secure communications between an internet client and a server on the internal network. To which network security service must the IPsec client connect?\n</div>",
     "image_file_name": null,
     "answers": [
       {
@@ -4306,7 +4306,7 @@
     ]
   },
   {
-    "questionText": "<div>\n )You are responsible for ensuring that your network computers remain virus and malware free. Choose 2 answer. Which two strategies will help keep your devices free from viruses and malware?\n</div>",
+    "questionText": "<div>\n You are responsible for ensuring that your network computers remain virus and malware free. Choose 2 answer. Which two strategies will help keep your devices free from viruses and malware?\n</div>",
     "image_file_name": null,
     "answers": [
       {
@@ -4420,7 +4420,7 @@
     ]
   },
   {
-    "questionText": "<div>\n )You create a web server for your school. When users visit your site, they get a certificate error that says your site is not trusted. What should you do to fix this problem?\n</div>",
+    "questionText": "<div>\n You create a web server for your school. When users visit your site, they get a certificate error that says your site is not trusted. What should you do to fix this problem?\n</div>",
     "image_file_name": null,
     "answers": [
       {
@@ -4637,7 +4637,7 @@
     ]
   },
   {
-    "questionText": "<div>\n )You have two servers that run Windows Server. All the server drives have been formatted by using NTFS. You move a file from one server to the other server. What permissions does the file have in the new location?\n</div>",
+    "questionText": "<div>\n You have two servers that run Windows Server. All the server drives have been formatted by using NTFS. You move a file from one server to the other server. What permissions does the file have in the new location?\n</div>",
     "image_file_name": null,
     "answers": [
       {
@@ -4806,7 +4806,7 @@
     "answers": []
   },
   {
-    "questionText": "<div>\n )You are an intern for a company. Your manager wants to be sure that you understand the types of social engineering threats that might occur. Which type of threat mitigation educates the staff within an organization, explaining what to do, when, why, and by whom?\n</div>",
+    "questionText": "<div>\n You are an intern for a company. Your manager wants to be sure that you understand the types of social engineering threats that might occur. Which type of threat mitigation educates the staff within an organization, explaining what to do, when, why, and by whom?\n</div>",
     "image_file_name": null,
     "answers": [
       {
@@ -4850,7 +4850,7 @@
     ]
   },
   {
-    "questionText": "<div>\n )You are the junior network administrator at your company. You learn that several employees within your organization have downloaded and installed a browser extension that will translate text from one language to another. What should you do?\n</div>",
+    "questionText": "<div>\n You are the junior network administrator at your company. You learn that several employees within your organization have downloaded and installed a browser extension that will translate text from one language to another. What should you do?\n</div>",
     "image_file_name": null,
     "answers": [
       {
@@ -4987,7 +4987,7 @@
     ]
   },
   {
-    "questionText": "<div>\n )You are a network administrator. All computers run the Chrome browser. You need to prevent third-party cookies from being saved. What should you enforce?\n</div>",
+    "questionText": "<div>\n You are a network administrator. All computers run the Chrome browser. You need to prevent third-party cookies from being saved. What should you enforce?\n</div>",
     "image_file_name": null,
     "answers": [
       {
@@ -5014,7 +5014,7 @@
     "answers": []
   },
   {
-    "questionText": "<div>\n )You are an intern at Sunset Web. You help manage 1000 workstations. All the workstations are members of an Active Directory Domain. You need to push an application security patch to all workstations. What is the quickest method to do this?\n</div>",
+    "questionText": "<div>\n You are an intern at Sunset Web. You help manage 1000 workstations. All the workstations are members of an Active Directory Domain. You need to push an application security patch to all workstations. What is the quickest method to do this?\n</div>",
     "image_file_name": null,
     "answers": [
       {
