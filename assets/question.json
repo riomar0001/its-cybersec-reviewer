@@ -4730,7 +4730,7 @@
     ]
   },
   {
-    "questionText": "<div>\n )Your anti-spam program is blocking emails from a particular sender. Your company needs to receive emails from this sender. What should you do?\n</div>",
+    "questionText": "<div>\n Your anti-spam program is blocking emails from a particular sender. Your company needs to receive emails from this sender. What should you do?\n</div>",
     "image_file_name": null,
     "answers": [
       {
