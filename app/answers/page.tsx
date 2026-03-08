@@ -41,7 +41,7 @@ export default function AnswersPage() {
                   </Badge>
                   <Badge variant="secondary">{q.category}</Badge>
                 </div>
-                <CardTitle className="text-base leading-relaxed md:text-lg">
+                <CardTitle className="text-sm leading-relaxed md:text-base">
                   {q.question.replace("[MATCH] ", "")}
                 </CardTitle>
               </CardHeader>
@@ -52,7 +52,7 @@ export default function AnswersPage() {
                     <div
                       key={i}
                       className={cn(
-                        "flex items-start gap-3 rounded-lg border px-4 py-3 text-sm",
+                        "flex items-start gap-3 rounded-lg border px-4 py-3 text-xs md:text-sm",
                         isCorrect
                           ? "border-emerald-500/50 bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 font-medium"
                           : "border-border/50 bg-card/40 text-muted-foreground",

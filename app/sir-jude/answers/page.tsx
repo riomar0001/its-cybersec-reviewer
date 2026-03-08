@@ -62,7 +62,7 @@ export default function SirJudeAnswersPage() {
                   </div>
 
                   <div
-                    className="text-base leading-relaxed md:text-lg prose dark:prose-invert max-w-none [&>p]:m-0"
+                    className="text-sm leading-relaxed md:text-base prose prose-sm md:prose-base dark:prose-invert max-w-none [&>p]:m-0"
                     dangerouslySetInnerHTML={{ __html: q.questionText }}
                   />
 
@@ -84,7 +84,7 @@ export default function SirJudeAnswersPage() {
                       <div
                         key={i}
                         className={cn(
-                          "flex items-start gap-3 rounded-lg border px-4 py-3 text-sm",
+                          "flex items-start gap-3 rounded-lg border px-4 py-3 text-xs md:text-sm",
                           isCorrect
                             ? "border-emerald-500/50 bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 font-medium"
                             : "border-border/50 bg-card/40 text-muted-foreground",

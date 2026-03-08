@@ -2752,7 +2752,7 @@ function QuizScreen({ questions, onFinish }: QuizScreenProps) {
               </Badge>
               {isMatch && <Badge variant="secondary">Match</Badge>}
             </div>
-            <CardTitle className="text-base leading-relaxed md:text-lg">
+            <CardTitle className="text-sm leading-relaxed md:text-base">
               {displayQ}
             </CardTitle>
           </CardHeader>
@@ -2781,7 +2781,9 @@ function QuizScreen({ questions, onFinish }: QuizScreenProps) {
                 >
                   {LABELS[i]}
                 </span>
-                <span className="flex-1 text-sm leading-relaxed">{opt}</span>
+                <span className="flex-1 text-xs md:text-sm leading-relaxed">
+                  {opt}
+                </span>
                 {!confirmed && selected === i && (
                   <span className="rounded-md border border-primary/40 bg-primary/20 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-primary">
                     Selected

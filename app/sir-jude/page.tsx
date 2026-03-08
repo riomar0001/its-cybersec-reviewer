@@ -258,7 +258,7 @@ function QuizScreen({ questions, onFinish }: QuizScreenProps) {
             </div>
 
             <div
-              className="text-base leading-relaxed md:text-lg prose dark:prose-invert max-w-none [&>p]:m-0"
+              className="text-sm leading-relaxed md:text-base prose prose-sm md:prose-base dark:prose-invert max-w-none [&>p]:m-0"
               dangerouslySetInnerHTML={{ __html: q.questionText }}
             />
 
@@ -365,7 +365,7 @@ function QuizScreen({ questions, onFinish }: QuizScreenProps) {
                   </span>
 
                   <div
-                    className="flex-1 text-sm leading-relaxed prose prose-sm dark:prose-invert max-w-none [&>p]:m-0"
+                    className="flex-1 text-xs md:text-sm leading-relaxed prose prose-sm dark:prose-invert max-w-none [&>p]:m-0"
                     dangerouslySetInnerHTML={{ __html: ans.rawText }}
                   />
 
