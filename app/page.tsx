@@ -2519,7 +2519,7 @@ const CATEGORY_COLORS: Record<string, string> = {
   Virtualization: "#d9f99d",
 };
 
-const TOTAL = 100;
+const TOTAL = 50;
 const LABELS = ["A", "B", "C", "D"] as const;
 
 function shuffle<T>(arr: T[]): T[] {

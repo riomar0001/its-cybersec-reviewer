@@ -52,7 +52,7 @@ type ResultScreenProps = {
 };
 
 const QUESTIONS = questionData as SirJudeQuestion[];
-const TOTAL = 100;
+const TOTAL = 50;
 const LABELS = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"] as const;
 
 function shuffle<T>(arr: T[]): T[] {
